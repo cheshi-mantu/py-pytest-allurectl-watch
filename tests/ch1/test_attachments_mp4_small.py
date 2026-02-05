@@ -11,7 +11,7 @@ def test_attach_smallmp4_001():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -20,7 +20,7 @@ def test_attach_smallmp4_002():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -29,7 +29,7 @@ def test_attach_smallmp4_003():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -38,7 +38,7 @@ def test_attach_smallmp4_004():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -47,7 +47,7 @@ def test_attach_smallmp4_005():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -56,7 +56,7 @@ def test_attach_smallmp4_006():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -65,7 +65,7 @@ def test_attach_smallmp4_007():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -74,7 +74,7 @@ def test_attach_smallmp4_008():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -83,7 +83,7 @@ def test_attach_smallmp4_009():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -92,7 +92,7 @@ def test_attach_smallmp4_010():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -101,7 +101,7 @@ def test_attach_smallmp4_011():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -110,7 +110,7 @@ def test_attach_smallmp4_012():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -119,7 +119,7 @@ def test_attach_smallmp4_013():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -128,7 +128,7 @@ def test_attach_smallmp4_014():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -137,7 +137,7 @@ def test_attach_smallmp4_015():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -146,7 +146,7 @@ def test_attach_smallmp4_016():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -155,7 +155,7 @@ def test_attach_smallmp4_017():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -164,7 +164,7 @@ def test_attach_smallmp4_018():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -173,7 +173,7 @@ def test_attach_smallmp4_019():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -182,7 +182,7 @@ def test_attach_smallmp4_020():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -191,7 +191,7 @@ def test_attach_smallmp4_021():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -200,7 +200,7 @@ def test_attach_smallmp4_022():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -209,7 +209,7 @@ def test_attach_smallmp4_023():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -218,7 +218,7 @@ def test_attach_smallmp4_024():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -227,7 +227,7 @@ def test_attach_smallmp4_025():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -236,7 +236,7 @@ def test_attach_smallmp4_026():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -245,7 +245,7 @@ def test_attach_smallmp4_027():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -254,7 +254,7 @@ def test_attach_smallmp4_028():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -263,7 +263,7 @@ def test_attach_smallmp4_029():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -272,7 +272,7 @@ def test_attach_smallmp4_030():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -281,7 +281,7 @@ def test_attach_smallmp4_031():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -290,7 +290,7 @@ def test_attach_smallmp4_032():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -299,7 +299,7 @@ def test_attach_smallmp4_033():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -308,7 +308,7 @@ def test_attach_smallmp4_034():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -317,7 +317,7 @@ def test_attach_smallmp4_035():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -326,7 +326,7 @@ def test_attach_smallmp4_036():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -335,7 +335,7 @@ def test_attach_smallmp4_037():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -344,7 +344,7 @@ def test_attach_smallmp4_038():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -353,7 +353,7 @@ def test_attach_smallmp4_039():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -362,7 +362,7 @@ def test_attach_smallmp4_040():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -371,7 +371,7 @@ def test_attach_smallmp4_041():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -380,7 +380,7 @@ def test_attach_smallmp4_042():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -389,7 +389,7 @@ def test_attach_smallmp4_043():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -398,7 +398,7 @@ def test_attach_smallmp4_044():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -407,7 +407,7 @@ def test_attach_smallmp4_045():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -416,7 +416,7 @@ def test_attach_smallmp4_046():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -425,7 +425,7 @@ def test_attach_smallmp4_047():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -434,7 +434,7 @@ def test_attach_smallmp4_048():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -443,7 +443,7 @@ def test_attach_smallmp4_049():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -452,7 +452,7 @@ def test_attach_smallmp4_050():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -461,7 +461,7 @@ def test_attach_smallmp4_051():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -470,7 +470,7 @@ def test_attach_smallmp4_052():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -479,7 +479,7 @@ def test_attach_smallmp4_053():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -488,7 +488,7 @@ def test_attach_smallmp4_054():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -497,7 +497,7 @@ def test_attach_smallmp4_055():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -506,7 +506,7 @@ def test_attach_smallmp4_056():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -515,7 +515,7 @@ def test_attach_smallmp4_057():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -524,7 +524,7 @@ def test_attach_smallmp4_058():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -533,7 +533,7 @@ def test_attach_smallmp4_059():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -542,7 +542,7 @@ def test_attach_smallmp4_060():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -551,7 +551,7 @@ def test_attach_smallmp4_061():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -560,7 +560,7 @@ def test_attach_smallmp4_062():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -569,7 +569,7 @@ def test_attach_smallmp4_063():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -578,7 +578,7 @@ def test_attach_smallmp4_064():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -587,7 +587,7 @@ def test_attach_smallmp4_065():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -596,7 +596,7 @@ def test_attach_smallmp4_066():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -605,7 +605,7 @@ def test_attach_smallmp4_067():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -614,7 +614,7 @@ def test_attach_smallmp4_068():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -623,7 +623,7 @@ def test_attach_smallmp4_069():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -632,7 +632,7 @@ def test_attach_smallmp4_070():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -641,7 +641,7 @@ def test_attach_smallmp4_071():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -650,7 +650,7 @@ def test_attach_smallmp4_072():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -659,7 +659,7 @@ def test_attach_smallmp4_073():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -668,7 +668,7 @@ def test_attach_smallmp4_074():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -677,7 +677,7 @@ def test_attach_smallmp4_075():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -686,7 +686,7 @@ def test_attach_smallmp4_076():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -695,7 +695,7 @@ def test_attach_smallmp4_077():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -704,7 +704,7 @@ def test_attach_smallmp4_078():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -713,7 +713,7 @@ def test_attach_smallmp4_079():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -722,7 +722,7 @@ def test_attach_smallmp4_080():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -731,7 +731,7 @@ def test_attach_smallmp4_081():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -740,7 +740,7 @@ def test_attach_smallmp4_082():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -749,7 +749,7 @@ def test_attach_smallmp4_083():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -758,7 +758,7 @@ def test_attach_smallmp4_084():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -767,7 +767,7 @@ def test_attach_smallmp4_085():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -776,7 +776,7 @@ def test_attach_smallmp4_086():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -785,7 +785,7 @@ def test_attach_smallmp4_087():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -794,7 +794,7 @@ def test_attach_smallmp4_088():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -803,7 +803,7 @@ def test_attach_smallmp4_089():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -812,7 +812,7 @@ def test_attach_smallmp4_090():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -821,7 +821,7 @@ def test_attach_smallmp4_091():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -830,7 +830,7 @@ def test_attach_smallmp4_092():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -839,7 +839,7 @@ def test_attach_smallmp4_093():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -848,7 +848,7 @@ def test_attach_smallmp4_094():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -857,7 +857,7 @@ def test_attach_smallmp4_095():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -866,7 +866,7 @@ def test_attach_smallmp4_096():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -875,7 +875,7 @@ def test_attach_smallmp4_097():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -884,7 +884,7 @@ def test_attach_smallmp4_098():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -893,7 +893,7 @@ def test_attach_smallmp4_099():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 
 @allure.feature("Sending small video attachments")
 @allure.story("Attach 'em small and video")
@@ -902,5 +902,5 @@ def test_attach_smallmp4_100():
     with allure.step("Sending small mp4 attach or not"):
         if random.choice([True, False]):
             with allure.step("Sending small mp4 attach"):
-                allure.attach.file(os.path.join("../resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
+                allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "mp4.mp4"), name="mp4file", attachment_type=attachment_type.MP4)
 

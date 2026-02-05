@@ -12,7 +12,7 @@ from allure import attachment_type
 def test_attach_mediumfile_001():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -35,7 +35,7 @@ def test_attach_mediumfile_001():
 def test_attach_mediumfile_002():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -58,7 +58,7 @@ def test_attach_mediumfile_002():
 def test_attach_mediumfile_003():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -81,7 +81,7 @@ def test_attach_mediumfile_003():
 def test_attach_mediumfile_004():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -104,7 +104,7 @@ def test_attach_mediumfile_004():
 def test_attach_mediumfile_005():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -127,7 +127,7 @@ def test_attach_mediumfile_005():
 def test_attach_mediumfile_006():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -150,7 +150,7 @@ def test_attach_mediumfile_006():
 def test_attach_mediumfile_007():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -173,7 +173,7 @@ def test_attach_mediumfile_007():
 def test_attach_mediumfile_008():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -196,7 +196,7 @@ def test_attach_mediumfile_008():
 def test_attach_mediumfile_009():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -219,7 +219,7 @@ def test_attach_mediumfile_009():
 def test_attach_mediumfile_010():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -242,7 +242,7 @@ def test_attach_mediumfile_010():
 def test_attach_mediumfile_011():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -265,7 +265,7 @@ def test_attach_mediumfile_011():
 def test_attach_mediumfile_012():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -288,7 +288,7 @@ def test_attach_mediumfile_012():
 def test_attach_mediumfile_013():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -311,7 +311,7 @@ def test_attach_mediumfile_013():
 def test_attach_mediumfile_014():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -334,7 +334,7 @@ def test_attach_mediumfile_014():
 def test_attach_mediumfile_015():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -357,7 +357,7 @@ def test_attach_mediumfile_015():
 def test_attach_mediumfile_016():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -380,7 +380,7 @@ def test_attach_mediumfile_016():
 def test_attach_mediumfile_017():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -403,7 +403,7 @@ def test_attach_mediumfile_017():
 def test_attach_mediumfile_018():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -426,7 +426,7 @@ def test_attach_mediumfile_018():
 def test_attach_mediumfile_019():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -449,7 +449,7 @@ def test_attach_mediumfile_019():
 def test_attach_mediumfile_020():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -472,7 +472,7 @@ def test_attach_mediumfile_020():
 def test_attach_mediumfile_021():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -495,7 +495,7 @@ def test_attach_mediumfile_021():
 def test_attach_mediumfile_022():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -518,7 +518,7 @@ def test_attach_mediumfile_022():
 def test_attach_mediumfile_023():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -541,7 +541,7 @@ def test_attach_mediumfile_023():
 def test_attach_mediumfile_024():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -564,7 +564,7 @@ def test_attach_mediumfile_024():
 def test_attach_mediumfile_025():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -587,7 +587,7 @@ def test_attach_mediumfile_025():
 def test_attach_mediumfile_026():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -610,7 +610,7 @@ def test_attach_mediumfile_026():
 def test_attach_mediumfile_027():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -633,7 +633,7 @@ def test_attach_mediumfile_027():
 def test_attach_mediumfile_028():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -656,7 +656,7 @@ def test_attach_mediumfile_028():
 def test_attach_mediumfile_029():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -679,7 +679,7 @@ def test_attach_mediumfile_029():
 def test_attach_mediumfile_030():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -702,7 +702,7 @@ def test_attach_mediumfile_030():
 def test_attach_mediumfile_031():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -725,7 +725,7 @@ def test_attach_mediumfile_031():
 def test_attach_mediumfile_032():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -748,7 +748,7 @@ def test_attach_mediumfile_032():
 def test_attach_mediumfile_033():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -771,7 +771,7 @@ def test_attach_mediumfile_033():
 def test_attach_mediumfile_034():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -794,7 +794,7 @@ def test_attach_mediumfile_034():
 def test_attach_mediumfile_035():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -817,7 +817,7 @@ def test_attach_mediumfile_035():
 def test_attach_mediumfile_036():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -840,7 +840,7 @@ def test_attach_mediumfile_036():
 def test_attach_mediumfile_037():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -863,7 +863,7 @@ def test_attach_mediumfile_037():
 def test_attach_mediumfile_038():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -886,7 +886,7 @@ def test_attach_mediumfile_038():
 def test_attach_mediumfile_039():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -909,7 +909,7 @@ def test_attach_mediumfile_039():
 def test_attach_mediumfile_040():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -932,7 +932,7 @@ def test_attach_mediumfile_040():
 def test_attach_mediumfile_041():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -955,7 +955,7 @@ def test_attach_mediumfile_041():
 def test_attach_mediumfile_042():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -978,7 +978,7 @@ def test_attach_mediumfile_042():
 def test_attach_mediumfile_043():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1001,7 +1001,7 @@ def test_attach_mediumfile_043():
 def test_attach_mediumfile_044():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1024,7 +1024,7 @@ def test_attach_mediumfile_044():
 def test_attach_mediumfile_045():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1047,7 +1047,7 @@ def test_attach_mediumfile_045():
 def test_attach_mediumfile_046():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1070,7 +1070,7 @@ def test_attach_mediumfile_046():
 def test_attach_mediumfile_047():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1093,7 +1093,7 @@ def test_attach_mediumfile_047():
 def test_attach_mediumfile_048():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1116,7 +1116,7 @@ def test_attach_mediumfile_048():
 def test_attach_mediumfile_049():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1139,7 +1139,7 @@ def test_attach_mediumfile_049():
 def test_attach_mediumfile_050():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1162,7 +1162,7 @@ def test_attach_mediumfile_050():
 def test_attach_mediumfile_051():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1185,7 +1185,7 @@ def test_attach_mediumfile_051():
 def test_attach_mediumfile_052():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1208,7 +1208,7 @@ def test_attach_mediumfile_052():
 def test_attach_mediumfile_053():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1231,7 +1231,7 @@ def test_attach_mediumfile_053():
 def test_attach_mediumfile_054():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1254,7 +1254,7 @@ def test_attach_mediumfile_054():
 def test_attach_mediumfile_055():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1277,7 +1277,7 @@ def test_attach_mediumfile_055():
 def test_attach_mediumfile_056():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1300,7 +1300,7 @@ def test_attach_mediumfile_056():
 def test_attach_mediumfile_057():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1323,7 +1323,7 @@ def test_attach_mediumfile_057():
 def test_attach_mediumfile_058():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1346,7 +1346,7 @@ def test_attach_mediumfile_058():
 def test_attach_mediumfile_059():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1369,7 +1369,7 @@ def test_attach_mediumfile_059():
 def test_attach_mediumfile_060():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1392,7 +1392,7 @@ def test_attach_mediumfile_060():
 def test_attach_mediumfile_061():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1415,7 +1415,7 @@ def test_attach_mediumfile_061():
 def test_attach_mediumfile_062():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1438,7 +1438,7 @@ def test_attach_mediumfile_062():
 def test_attach_mediumfile_063():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1461,7 +1461,7 @@ def test_attach_mediumfile_063():
 def test_attach_mediumfile_064():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1484,7 +1484,7 @@ def test_attach_mediumfile_064():
 def test_attach_mediumfile_065():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1507,7 +1507,7 @@ def test_attach_mediumfile_065():
 def test_attach_mediumfile_066():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1530,7 +1530,7 @@ def test_attach_mediumfile_066():
 def test_attach_mediumfile_067():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1553,7 +1553,7 @@ def test_attach_mediumfile_067():
 def test_attach_mediumfile_068():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1576,7 +1576,7 @@ def test_attach_mediumfile_068():
 def test_attach_mediumfile_069():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1599,7 +1599,7 @@ def test_attach_mediumfile_069():
 def test_attach_mediumfile_070():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1622,7 +1622,7 @@ def test_attach_mediumfile_070():
 def test_attach_mediumfile_071():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1645,7 +1645,7 @@ def test_attach_mediumfile_071():
 def test_attach_mediumfile_072():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1668,7 +1668,7 @@ def test_attach_mediumfile_072():
 def test_attach_mediumfile_073():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1691,7 +1691,7 @@ def test_attach_mediumfile_073():
 def test_attach_mediumfile_074():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1714,7 +1714,7 @@ def test_attach_mediumfile_074():
 def test_attach_mediumfile_075():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1737,7 +1737,7 @@ def test_attach_mediumfile_075():
 def test_attach_mediumfile_076():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1760,7 +1760,7 @@ def test_attach_mediumfile_076():
 def test_attach_mediumfile_077():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1783,7 +1783,7 @@ def test_attach_mediumfile_077():
 def test_attach_mediumfile_078():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1806,7 +1806,7 @@ def test_attach_mediumfile_078():
 def test_attach_mediumfile_079():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1829,7 +1829,7 @@ def test_attach_mediumfile_079():
 def test_attach_mediumfile_080():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1852,7 +1852,7 @@ def test_attach_mediumfile_080():
 def test_attach_mediumfile_081():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1875,7 +1875,7 @@ def test_attach_mediumfile_081():
 def test_attach_mediumfile_082():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1898,7 +1898,7 @@ def test_attach_mediumfile_082():
 def test_attach_mediumfile_083():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1921,7 +1921,7 @@ def test_attach_mediumfile_083():
 def test_attach_mediumfile_084():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1944,7 +1944,7 @@ def test_attach_mediumfile_084():
 def test_attach_mediumfile_085():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1967,7 +1967,7 @@ def test_attach_mediumfile_085():
 def test_attach_mediumfile_086():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1990,7 +1990,7 @@ def test_attach_mediumfile_086():
 def test_attach_mediumfile_087():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2013,7 +2013,7 @@ def test_attach_mediumfile_087():
 def test_attach_mediumfile_088():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2036,7 +2036,7 @@ def test_attach_mediumfile_088():
 def test_attach_mediumfile_089():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2059,7 +2059,7 @@ def test_attach_mediumfile_089():
 def test_attach_mediumfile_090():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2082,7 +2082,7 @@ def test_attach_mediumfile_090():
 def test_attach_mediumfile_091():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2105,7 +2105,7 @@ def test_attach_mediumfile_091():
 def test_attach_mediumfile_092():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2128,7 +2128,7 @@ def test_attach_mediumfile_092():
 def test_attach_mediumfile_093():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2151,7 +2151,7 @@ def test_attach_mediumfile_093():
 def test_attach_mediumfile_094():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2174,7 +2174,7 @@ def test_attach_mediumfile_094():
 def test_attach_mediumfile_095():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2197,7 +2197,7 @@ def test_attach_mediumfile_095():
 def test_attach_mediumfile_096():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2220,7 +2220,7 @@ def test_attach_mediumfile_096():
 def test_attach_mediumfile_097():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2243,7 +2243,7 @@ def test_attach_mediumfile_097():
 def test_attach_mediumfile_098():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2266,7 +2266,7 @@ def test_attach_mediumfile_098():
 def test_attach_mediumfile_099():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2289,7 +2289,7 @@ def test_attach_mediumfile_099():
 def test_attach_mediumfile_100():
     if random.choice([True, False]):
         with allure.step("Sending medium 3 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-image.jpg"), name="3 Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)

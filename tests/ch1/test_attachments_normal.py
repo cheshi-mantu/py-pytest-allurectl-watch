@@ -12,7 +12,7 @@ from allure import attachment_type
 def test_attach_normalfile_001():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -35,7 +35,7 @@ def test_attach_normalfile_001():
 def test_attach_normalfile_002():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -58,7 +58,7 @@ def test_attach_normalfile_002():
 def test_attach_normalfile_003():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -81,7 +81,7 @@ def test_attach_normalfile_003():
 def test_attach_normalfile_004():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -104,7 +104,7 @@ def test_attach_normalfile_004():
 def test_attach_normalfile_005():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -127,7 +127,7 @@ def test_attach_normalfile_005():
 def test_attach_normalfile_006():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -150,7 +150,7 @@ def test_attach_normalfile_006():
 def test_attach_normalfile_007():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -173,7 +173,7 @@ def test_attach_normalfile_007():
 def test_attach_normalfile_008():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -196,7 +196,7 @@ def test_attach_normalfile_008():
 def test_attach_normalfile_009():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -219,7 +219,7 @@ def test_attach_normalfile_009():
 def test_attach_normalfile_010():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -242,7 +242,7 @@ def test_attach_normalfile_010():
 def test_attach_normalfile_011():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -265,7 +265,7 @@ def test_attach_normalfile_011():
 def test_attach_normalfile_012():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -288,7 +288,7 @@ def test_attach_normalfile_012():
 def test_attach_normalfile_013():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -311,7 +311,7 @@ def test_attach_normalfile_013():
 def test_attach_normalfile_014():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -334,7 +334,7 @@ def test_attach_normalfile_014():
 def test_attach_normalfile_015():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -357,7 +357,7 @@ def test_attach_normalfile_015():
 def test_attach_normalfile_016():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -380,7 +380,7 @@ def test_attach_normalfile_016():
 def test_attach_normalfile_017():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -403,7 +403,7 @@ def test_attach_normalfile_017():
 def test_attach_normalfile_018():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -426,7 +426,7 @@ def test_attach_normalfile_018():
 def test_attach_normalfile_019():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -449,7 +449,7 @@ def test_attach_normalfile_019():
 def test_attach_normalfile_020():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -472,7 +472,7 @@ def test_attach_normalfile_020():
 def test_attach_normalfile_021():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -495,7 +495,7 @@ def test_attach_normalfile_021():
 def test_attach_normalfile_022():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -518,7 +518,7 @@ def test_attach_normalfile_022():
 def test_attach_normalfile_023():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -541,7 +541,7 @@ def test_attach_normalfile_023():
 def test_attach_normalfile_024():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -564,7 +564,7 @@ def test_attach_normalfile_024():
 def test_attach_normalfile_025():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -587,7 +587,7 @@ def test_attach_normalfile_025():
 def test_attach_normalfile_026():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -610,7 +610,7 @@ def test_attach_normalfile_026():
 def test_attach_normalfile_027():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -633,7 +633,7 @@ def test_attach_normalfile_027():
 def test_attach_normalfile_028():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -656,7 +656,7 @@ def test_attach_normalfile_028():
 def test_attach_normalfile_029():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -679,7 +679,7 @@ def test_attach_normalfile_029():
 def test_attach_normalfile_030():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -702,7 +702,7 @@ def test_attach_normalfile_030():
 def test_attach_normalfile_031():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -725,7 +725,7 @@ def test_attach_normalfile_031():
 def test_attach_normalfile_032():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -748,7 +748,7 @@ def test_attach_normalfile_032():
 def test_attach_normalfile_033():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -771,7 +771,7 @@ def test_attach_normalfile_033():
 def test_attach_normalfile_034():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -794,7 +794,7 @@ def test_attach_normalfile_034():
 def test_attach_normalfile_035():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -817,7 +817,7 @@ def test_attach_normalfile_035():
 def test_attach_normalfile_036():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -840,7 +840,7 @@ def test_attach_normalfile_036():
 def test_attach_normalfile_037():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -863,7 +863,7 @@ def test_attach_normalfile_037():
 def test_attach_normalfile_038():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -886,7 +886,7 @@ def test_attach_normalfile_038():
 def test_attach_normalfile_039():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -909,7 +909,7 @@ def test_attach_normalfile_039():
 def test_attach_normalfile_040():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -932,7 +932,7 @@ def test_attach_normalfile_040():
 def test_attach_normalfile_041():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -955,7 +955,7 @@ def test_attach_normalfile_041():
 def test_attach_normalfile_042():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -978,7 +978,7 @@ def test_attach_normalfile_042():
 def test_attach_normalfile_043():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1001,7 +1001,7 @@ def test_attach_normalfile_043():
 def test_attach_normalfile_044():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1024,7 +1024,7 @@ def test_attach_normalfile_044():
 def test_attach_normalfile_045():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1047,7 +1047,7 @@ def test_attach_normalfile_045():
 def test_attach_normalfile_046():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1070,7 +1070,7 @@ def test_attach_normalfile_046():
 def test_attach_normalfile_047():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1093,7 +1093,7 @@ def test_attach_normalfile_047():
 def test_attach_normalfile_048():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1116,7 +1116,7 @@ def test_attach_normalfile_048():
 def test_attach_normalfile_049():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1139,7 +1139,7 @@ def test_attach_normalfile_049():
 def test_attach_normalfile_050():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1162,7 +1162,7 @@ def test_attach_normalfile_050():
 def test_attach_normalfile_051():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1185,7 +1185,7 @@ def test_attach_normalfile_051():
 def test_attach_normalfile_052():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1208,7 +1208,7 @@ def test_attach_normalfile_052():
 def test_attach_normalfile_053():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1231,7 +1231,7 @@ def test_attach_normalfile_053():
 def test_attach_normalfile_054():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1254,7 +1254,7 @@ def test_attach_normalfile_054():
 def test_attach_normalfile_055():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1277,7 +1277,7 @@ def test_attach_normalfile_055():
 def test_attach_normalfile_056():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1300,7 +1300,7 @@ def test_attach_normalfile_056():
 def test_attach_normalfile_057():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1323,7 +1323,7 @@ def test_attach_normalfile_057():
 def test_attach_normalfile_058():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1346,7 +1346,7 @@ def test_attach_normalfile_058():
 def test_attach_normalfile_059():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1369,7 +1369,7 @@ def test_attach_normalfile_059():
 def test_attach_normalfile_060():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1392,7 +1392,7 @@ def test_attach_normalfile_060():
 def test_attach_normalfile_061():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1415,7 +1415,7 @@ def test_attach_normalfile_061():
 def test_attach_normalfile_062():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1438,7 +1438,7 @@ def test_attach_normalfile_062():
 def test_attach_normalfile_063():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1461,7 +1461,7 @@ def test_attach_normalfile_063():
 def test_attach_normalfile_064():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1484,7 +1484,7 @@ def test_attach_normalfile_064():
 def test_attach_normalfile_065():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1507,7 +1507,7 @@ def test_attach_normalfile_065():
 def test_attach_normalfile_066():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1530,7 +1530,7 @@ def test_attach_normalfile_066():
 def test_attach_normalfile_067():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1553,7 +1553,7 @@ def test_attach_normalfile_067():
 def test_attach_normalfile_068():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1576,7 +1576,7 @@ def test_attach_normalfile_068():
 def test_attach_normalfile_069():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1599,7 +1599,7 @@ def test_attach_normalfile_069():
 def test_attach_normalfile_070():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1622,7 +1622,7 @@ def test_attach_normalfile_070():
 def test_attach_normalfile_071():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1645,7 +1645,7 @@ def test_attach_normalfile_071():
 def test_attach_normalfile_072():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1668,7 +1668,7 @@ def test_attach_normalfile_072():
 def test_attach_normalfile_073():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1691,7 +1691,7 @@ def test_attach_normalfile_073():
 def test_attach_normalfile_074():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1714,7 +1714,7 @@ def test_attach_normalfile_074():
 def test_attach_normalfile_075():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1737,7 +1737,7 @@ def test_attach_normalfile_075():
 def test_attach_normalfile_076():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1760,7 +1760,7 @@ def test_attach_normalfile_076():
 def test_attach_normalfile_077():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1783,7 +1783,7 @@ def test_attach_normalfile_077():
 def test_attach_normalfile_078():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1806,7 +1806,7 @@ def test_attach_normalfile_078():
 def test_attach_normalfile_079():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1829,7 +1829,7 @@ def test_attach_normalfile_079():
 def test_attach_normalfile_080():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1852,7 +1852,7 @@ def test_attach_normalfile_080():
 def test_attach_normalfile_081():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1875,7 +1875,7 @@ def test_attach_normalfile_081():
 def test_attach_normalfile_082():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1898,7 +1898,7 @@ def test_attach_normalfile_082():
 def test_attach_normalfile_083():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1921,7 +1921,7 @@ def test_attach_normalfile_083():
 def test_attach_normalfile_084():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1944,7 +1944,7 @@ def test_attach_normalfile_084():
 def test_attach_normalfile_085():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1967,7 +1967,7 @@ def test_attach_normalfile_085():
 def test_attach_normalfile_086():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1990,7 +1990,7 @@ def test_attach_normalfile_086():
 def test_attach_normalfile_087():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2013,7 +2013,7 @@ def test_attach_normalfile_087():
 def test_attach_normalfile_088():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2036,7 +2036,7 @@ def test_attach_normalfile_088():
 def test_attach_normalfile_089():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2059,7 +2059,7 @@ def test_attach_normalfile_089():
 def test_attach_normalfile_090():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2082,7 +2082,7 @@ def test_attach_normalfile_090():
 def test_attach_normalfile_091():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2105,7 +2105,7 @@ def test_attach_normalfile_091():
 def test_attach_normalfile_092():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2128,7 +2128,7 @@ def test_attach_normalfile_092():
 def test_attach_normalfile_093():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2151,7 +2151,7 @@ def test_attach_normalfile_093():
 def test_attach_normalfile_094():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2174,7 +2174,7 @@ def test_attach_normalfile_094():
 def test_attach_normalfile_095():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2197,7 +2197,7 @@ def test_attach_normalfile_095():
 def test_attach_normalfile_096():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2220,7 +2220,7 @@ def test_attach_normalfile_096():
 def test_attach_normalfile_097():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2243,7 +2243,7 @@ def test_attach_normalfile_097():
 def test_attach_normalfile_098():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2266,7 +2266,7 @@ def test_attach_normalfile_098():
 def test_attach_normalfile_099():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2289,7 +2289,7 @@ def test_attach_normalfile_099():
 def test_attach_normalfile_100():
     if random.choice([True, False]):
         with allure.step("Sending normal 240 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-image.jpg"), name="240 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)

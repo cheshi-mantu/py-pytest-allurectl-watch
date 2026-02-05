@@ -11,7 +11,7 @@ from allure import attachment_type
 def test_attach_bigfile_001():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -20,7 +20,7 @@ def test_attach_bigfile_001():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -34,7 +34,7 @@ def test_attach_bigfile_001():
 def test_attach_bigfile_002():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -43,7 +43,7 @@ def test_attach_bigfile_002():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -57,7 +57,7 @@ def test_attach_bigfile_002():
 def test_attach_bigfile_003():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -66,7 +66,7 @@ def test_attach_bigfile_003():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -80,7 +80,7 @@ def test_attach_bigfile_003():
 def test_attach_bigfile_004():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -89,7 +89,7 @@ def test_attach_bigfile_004():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -103,7 +103,7 @@ def test_attach_bigfile_004():
 def test_attach_bigfile_005():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -112,7 +112,7 @@ def test_attach_bigfile_005():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -126,7 +126,7 @@ def test_attach_bigfile_005():
 def test_attach_bigfile_006():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -135,7 +135,7 @@ def test_attach_bigfile_006():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -149,7 +149,7 @@ def test_attach_bigfile_006():
 def test_attach_bigfile_007():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -158,7 +158,7 @@ def test_attach_bigfile_007():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -172,7 +172,7 @@ def test_attach_bigfile_007():
 def test_attach_bigfile_008():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -181,7 +181,7 @@ def test_attach_bigfile_008():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -195,7 +195,7 @@ def test_attach_bigfile_008():
 def test_attach_bigfile_009():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -204,7 +204,7 @@ def test_attach_bigfile_009():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -218,7 +218,7 @@ def test_attach_bigfile_009():
 def test_attach_bigfile_010():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -227,7 +227,7 @@ def test_attach_bigfile_010():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -241,7 +241,7 @@ def test_attach_bigfile_010():
 def test_attach_bigfile_011():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -250,7 +250,7 @@ def test_attach_bigfile_011():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -264,7 +264,7 @@ def test_attach_bigfile_011():
 def test_attach_bigfile_012():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -273,7 +273,7 @@ def test_attach_bigfile_012():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -287,7 +287,7 @@ def test_attach_bigfile_012():
 def test_attach_bigfile_013():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -296,7 +296,7 @@ def test_attach_bigfile_013():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -310,7 +310,7 @@ def test_attach_bigfile_013():
 def test_attach_bigfile_014():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -319,7 +319,7 @@ def test_attach_bigfile_014():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -333,7 +333,7 @@ def test_attach_bigfile_014():
 def test_attach_bigfile_015():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -342,7 +342,7 @@ def test_attach_bigfile_015():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -356,7 +356,7 @@ def test_attach_bigfile_015():
 def test_attach_bigfile_016():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -365,7 +365,7 @@ def test_attach_bigfile_016():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -379,7 +379,7 @@ def test_attach_bigfile_016():
 def test_attach_bigfile_017():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -388,7 +388,7 @@ def test_attach_bigfile_017():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -402,7 +402,7 @@ def test_attach_bigfile_017():
 def test_attach_bigfile_018():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -411,7 +411,7 @@ def test_attach_bigfile_018():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -425,7 +425,7 @@ def test_attach_bigfile_018():
 def test_attach_bigfile_019():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -434,7 +434,7 @@ def test_attach_bigfile_019():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -448,7 +448,7 @@ def test_attach_bigfile_019():
 def test_attach_bigfile_020():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -457,7 +457,7 @@ def test_attach_bigfile_020():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -471,7 +471,7 @@ def test_attach_bigfile_020():
 def test_attach_bigfile_021():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -480,7 +480,7 @@ def test_attach_bigfile_021():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -494,7 +494,7 @@ def test_attach_bigfile_021():
 def test_attach_bigfile_022():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -503,7 +503,7 @@ def test_attach_bigfile_022():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -517,7 +517,7 @@ def test_attach_bigfile_022():
 def test_attach_bigfile_023():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -526,7 +526,7 @@ def test_attach_bigfile_023():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -540,7 +540,7 @@ def test_attach_bigfile_023():
 def test_attach_bigfile_024():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -549,7 +549,7 @@ def test_attach_bigfile_024():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -563,7 +563,7 @@ def test_attach_bigfile_024():
 def test_attach_bigfile_025():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -572,7 +572,7 @@ def test_attach_bigfile_025():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -586,7 +586,7 @@ def test_attach_bigfile_025():
 def test_attach_bigfile_026():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -595,7 +595,7 @@ def test_attach_bigfile_026():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -609,7 +609,7 @@ def test_attach_bigfile_026():
 def test_attach_bigfile_027():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -618,7 +618,7 @@ def test_attach_bigfile_027():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -632,7 +632,7 @@ def test_attach_bigfile_027():
 def test_attach_bigfile_028():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -641,7 +641,7 @@ def test_attach_bigfile_028():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -655,7 +655,7 @@ def test_attach_bigfile_028():
 def test_attach_bigfile_029():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -664,7 +664,7 @@ def test_attach_bigfile_029():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -678,7 +678,7 @@ def test_attach_bigfile_029():
 def test_attach_bigfile_030():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -687,7 +687,7 @@ def test_attach_bigfile_030():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -701,7 +701,7 @@ def test_attach_bigfile_030():
 def test_attach_bigfile_031():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -710,7 +710,7 @@ def test_attach_bigfile_031():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -724,7 +724,7 @@ def test_attach_bigfile_031():
 def test_attach_bigfile_032():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -733,7 +733,7 @@ def test_attach_bigfile_032():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -747,7 +747,7 @@ def test_attach_bigfile_032():
 def test_attach_bigfile_033():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -756,7 +756,7 @@ def test_attach_bigfile_033():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -770,7 +770,7 @@ def test_attach_bigfile_033():
 def test_attach_bigfile_034():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -779,7 +779,7 @@ def test_attach_bigfile_034():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -793,7 +793,7 @@ def test_attach_bigfile_034():
 def test_attach_bigfile_035():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -802,7 +802,7 @@ def test_attach_bigfile_035():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -816,7 +816,7 @@ def test_attach_bigfile_035():
 def test_attach_bigfile_036():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -825,7 +825,7 @@ def test_attach_bigfile_036():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -839,7 +839,7 @@ def test_attach_bigfile_036():
 def test_attach_bigfile_037():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -848,7 +848,7 @@ def test_attach_bigfile_037():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -862,7 +862,7 @@ def test_attach_bigfile_037():
 def test_attach_bigfile_038():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -871,7 +871,7 @@ def test_attach_bigfile_038():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -885,7 +885,7 @@ def test_attach_bigfile_038():
 def test_attach_bigfile_039():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -894,7 +894,7 @@ def test_attach_bigfile_039():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -908,7 +908,7 @@ def test_attach_bigfile_039():
 def test_attach_bigfile_040():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -917,7 +917,7 @@ def test_attach_bigfile_040():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -931,7 +931,7 @@ def test_attach_bigfile_040():
 def test_attach_bigfile_041():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -940,7 +940,7 @@ def test_attach_bigfile_041():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -954,7 +954,7 @@ def test_attach_bigfile_041():
 def test_attach_bigfile_042():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -963,7 +963,7 @@ def test_attach_bigfile_042():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -977,7 +977,7 @@ def test_attach_bigfile_042():
 def test_attach_bigfile_043():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -986,7 +986,7 @@ def test_attach_bigfile_043():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1000,7 +1000,7 @@ def test_attach_bigfile_043():
 def test_attach_bigfile_044():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1009,7 +1009,7 @@ def test_attach_bigfile_044():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1023,7 +1023,7 @@ def test_attach_bigfile_044():
 def test_attach_bigfile_045():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1032,7 +1032,7 @@ def test_attach_bigfile_045():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1046,7 +1046,7 @@ def test_attach_bigfile_045():
 def test_attach_bigfile_046():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1055,7 +1055,7 @@ def test_attach_bigfile_046():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1069,7 +1069,7 @@ def test_attach_bigfile_046():
 def test_attach_bigfile_047():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1078,7 +1078,7 @@ def test_attach_bigfile_047():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1092,7 +1092,7 @@ def test_attach_bigfile_047():
 def test_attach_bigfile_048():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1101,7 +1101,7 @@ def test_attach_bigfile_048():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1115,7 +1115,7 @@ def test_attach_bigfile_048():
 def test_attach_bigfile_049():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1124,7 +1124,7 @@ def test_attach_bigfile_049():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1138,7 +1138,7 @@ def test_attach_bigfile_049():
 def test_attach_bigfile_050():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1147,7 +1147,7 @@ def test_attach_bigfile_050():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1161,7 +1161,7 @@ def test_attach_bigfile_050():
 def test_attach_bigfile_051():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1170,7 +1170,7 @@ def test_attach_bigfile_051():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1184,7 +1184,7 @@ def test_attach_bigfile_051():
 def test_attach_bigfile_052():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1193,7 +1193,7 @@ def test_attach_bigfile_052():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1207,7 +1207,7 @@ def test_attach_bigfile_052():
 def test_attach_bigfile_053():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1216,7 +1216,7 @@ def test_attach_bigfile_053():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1230,7 +1230,7 @@ def test_attach_bigfile_053():
 def test_attach_bigfile_054():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1239,7 +1239,7 @@ def test_attach_bigfile_054():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1253,7 +1253,7 @@ def test_attach_bigfile_054():
 def test_attach_bigfile_055():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1262,7 +1262,7 @@ def test_attach_bigfile_055():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1276,7 +1276,7 @@ def test_attach_bigfile_055():
 def test_attach_bigfile_056():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1285,7 +1285,7 @@ def test_attach_bigfile_056():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1299,7 +1299,7 @@ def test_attach_bigfile_056():
 def test_attach_bigfile_057():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1308,7 +1308,7 @@ def test_attach_bigfile_057():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1322,7 +1322,7 @@ def test_attach_bigfile_057():
 def test_attach_bigfile_058():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1331,7 +1331,7 @@ def test_attach_bigfile_058():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1345,7 +1345,7 @@ def test_attach_bigfile_058():
 def test_attach_bigfile_059():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1354,7 +1354,7 @@ def test_attach_bigfile_059():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1368,7 +1368,7 @@ def test_attach_bigfile_059():
 def test_attach_bigfile_060():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1377,7 +1377,7 @@ def test_attach_bigfile_060():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1391,7 +1391,7 @@ def test_attach_bigfile_060():
 def test_attach_bigfile_061():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1400,7 +1400,7 @@ def test_attach_bigfile_061():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1414,7 +1414,7 @@ def test_attach_bigfile_061():
 def test_attach_bigfile_062():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1423,7 +1423,7 @@ def test_attach_bigfile_062():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1437,7 +1437,7 @@ def test_attach_bigfile_062():
 def test_attach_bigfile_063():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1446,7 +1446,7 @@ def test_attach_bigfile_063():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1460,7 +1460,7 @@ def test_attach_bigfile_063():
 def test_attach_bigfile_064():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1469,7 +1469,7 @@ def test_attach_bigfile_064():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1483,7 +1483,7 @@ def test_attach_bigfile_064():
 def test_attach_bigfile_065():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1492,7 +1492,7 @@ def test_attach_bigfile_065():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1506,7 +1506,7 @@ def test_attach_bigfile_065():
 def test_attach_bigfile_066():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1515,7 +1515,7 @@ def test_attach_bigfile_066():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1529,7 +1529,7 @@ def test_attach_bigfile_066():
 def test_attach_bigfile_067():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1538,7 +1538,7 @@ def test_attach_bigfile_067():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1552,7 +1552,7 @@ def test_attach_bigfile_067():
 def test_attach_bigfile_068():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1561,7 +1561,7 @@ def test_attach_bigfile_068():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1575,7 +1575,7 @@ def test_attach_bigfile_068():
 def test_attach_bigfile_069():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1584,7 +1584,7 @@ def test_attach_bigfile_069():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1598,7 +1598,7 @@ def test_attach_bigfile_069():
 def test_attach_bigfile_070():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1607,7 +1607,7 @@ def test_attach_bigfile_070():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1621,7 +1621,7 @@ def test_attach_bigfile_070():
 def test_attach_bigfile_071():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1630,7 +1630,7 @@ def test_attach_bigfile_071():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1644,7 +1644,7 @@ def test_attach_bigfile_071():
 def test_attach_bigfile_072():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1653,7 +1653,7 @@ def test_attach_bigfile_072():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1667,7 +1667,7 @@ def test_attach_bigfile_072():
 def test_attach_bigfile_073():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1676,7 +1676,7 @@ def test_attach_bigfile_073():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1690,7 +1690,7 @@ def test_attach_bigfile_073():
 def test_attach_bigfile_074():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1699,7 +1699,7 @@ def test_attach_bigfile_074():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1713,7 +1713,7 @@ def test_attach_bigfile_074():
 def test_attach_bigfile_075():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1722,7 +1722,7 @@ def test_attach_bigfile_075():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1736,7 +1736,7 @@ def test_attach_bigfile_075():
 def test_attach_bigfile_076():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1745,7 +1745,7 @@ def test_attach_bigfile_076():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1759,7 +1759,7 @@ def test_attach_bigfile_076():
 def test_attach_bigfile_077():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1768,7 +1768,7 @@ def test_attach_bigfile_077():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1782,7 +1782,7 @@ def test_attach_bigfile_077():
 def test_attach_bigfile_078():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1791,7 +1791,7 @@ def test_attach_bigfile_078():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1805,7 +1805,7 @@ def test_attach_bigfile_078():
 def test_attach_bigfile_079():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1814,7 +1814,7 @@ def test_attach_bigfile_079():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1828,7 +1828,7 @@ def test_attach_bigfile_079():
 def test_attach_bigfile_080():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1837,7 +1837,7 @@ def test_attach_bigfile_080():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1851,7 +1851,7 @@ def test_attach_bigfile_080():
 def test_attach_bigfile_081():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1860,7 +1860,7 @@ def test_attach_bigfile_081():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1874,7 +1874,7 @@ def test_attach_bigfile_081():
 def test_attach_bigfile_082():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1883,7 +1883,7 @@ def test_attach_bigfile_082():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1897,7 +1897,7 @@ def test_attach_bigfile_082():
 def test_attach_bigfile_083():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1906,7 +1906,7 @@ def test_attach_bigfile_083():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1920,7 +1920,7 @@ def test_attach_bigfile_083():
 def test_attach_bigfile_084():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1929,7 +1929,7 @@ def test_attach_bigfile_084():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1943,7 +1943,7 @@ def test_attach_bigfile_084():
 def test_attach_bigfile_085():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1952,7 +1952,7 @@ def test_attach_bigfile_085():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1966,7 +1966,7 @@ def test_attach_bigfile_085():
 def test_attach_bigfile_086():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1975,7 +1975,7 @@ def test_attach_bigfile_086():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -1989,7 +1989,7 @@ def test_attach_bigfile_086():
 def test_attach_bigfile_087():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -1998,7 +1998,7 @@ def test_attach_bigfile_087():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -2012,7 +2012,7 @@ def test_attach_bigfile_087():
 def test_attach_bigfile_088():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2021,7 +2021,7 @@ def test_attach_bigfile_088():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -2035,7 +2035,7 @@ def test_attach_bigfile_088():
 def test_attach_bigfile_089():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2044,7 +2044,7 @@ def test_attach_bigfile_089():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -2058,7 +2058,7 @@ def test_attach_bigfile_089():
 def test_attach_bigfile_090():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2067,7 +2067,7 @@ def test_attach_bigfile_090():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -2081,7 +2081,7 @@ def test_attach_bigfile_090():
 def test_attach_bigfile_091():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2090,7 +2090,7 @@ def test_attach_bigfile_091():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -2104,7 +2104,7 @@ def test_attach_bigfile_091():
 def test_attach_bigfile_092():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2113,7 +2113,7 @@ def test_attach_bigfile_092():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -2127,7 +2127,7 @@ def test_attach_bigfile_092():
 def test_attach_bigfile_093():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2136,7 +2136,7 @@ def test_attach_bigfile_093():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -2150,7 +2150,7 @@ def test_attach_bigfile_093():
 def test_attach_bigfile_094():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2159,7 +2159,7 @@ def test_attach_bigfile_094():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -2173,7 +2173,7 @@ def test_attach_bigfile_094():
 def test_attach_bigfile_095():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2182,7 +2182,7 @@ def test_attach_bigfile_095():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -2196,7 +2196,7 @@ def test_attach_bigfile_095():
 def test_attach_bigfile_096():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2205,7 +2205,7 @@ def test_attach_bigfile_096():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -2219,7 +2219,7 @@ def test_attach_bigfile_096():
 def test_attach_bigfile_097():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2228,7 +2228,7 @@ def test_attach_bigfile_097():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -2242,7 +2242,7 @@ def test_attach_bigfile_097():
 def test_attach_bigfile_098():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2251,7 +2251,7 @@ def test_attach_bigfile_098():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -2265,7 +2265,7 @@ def test_attach_bigfile_098():
 def test_attach_bigfile_099():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2274,7 +2274,7 @@ def test_attach_bigfile_099():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)
@@ -2288,7 +2288,7 @@ def test_attach_bigfile_099():
 def test_attach_bigfile_100():
     if random.choice([True, False]):
         with allure.step("Sending big 8 megabytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-image.jpg"), name="8Mb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
@@ -2297,7 +2297,7 @@ def test_attach_bigfile_100():
             allure.attach("Some text content", name="TXT example", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9,2 Mb CSV example", attachment_type=attachment_type.CSV)
     if random.choice([True, False]):
         with allure.step("JSON attach"):
             allure.attach(json.dumps({"first": 1, "second": 2}, indent=2), name="JSON example", attachment_type=attachment_type.JSON)

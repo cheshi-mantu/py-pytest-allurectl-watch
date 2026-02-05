@@ -12,7 +12,7 @@ from allure import attachment_type
 def test_attach_big_table_001():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -21,7 +21,7 @@ def test_attach_big_table_001():
 def test_attach_big_table_002():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -30,7 +30,7 @@ def test_attach_big_table_002():
 def test_attach_big_table_003():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -39,7 +39,7 @@ def test_attach_big_table_003():
 def test_attach_big_table_004():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -48,7 +48,7 @@ def test_attach_big_table_004():
 def test_attach_big_table_005():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -57,7 +57,7 @@ def test_attach_big_table_005():
 def test_attach_big_table_006():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -66,7 +66,7 @@ def test_attach_big_table_006():
 def test_attach_big_table_007():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -75,7 +75,7 @@ def test_attach_big_table_007():
 def test_attach_big_table_008():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -84,7 +84,7 @@ def test_attach_big_table_008():
 def test_attach_big_table_009():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -93,7 +93,7 @@ def test_attach_big_table_009():
 def test_attach_big_table_010():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -102,7 +102,7 @@ def test_attach_big_table_010():
 def test_attach_big_table_011():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -111,7 +111,7 @@ def test_attach_big_table_011():
 def test_attach_big_table_012():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -120,7 +120,7 @@ def test_attach_big_table_012():
 def test_attach_big_table_013():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -129,7 +129,7 @@ def test_attach_big_table_013():
 def test_attach_big_table_014():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -138,7 +138,7 @@ def test_attach_big_table_014():
 def test_attach_big_table_015():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -147,7 +147,7 @@ def test_attach_big_table_015():
 def test_attach_big_table_016():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -156,7 +156,7 @@ def test_attach_big_table_016():
 def test_attach_big_table_017():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -165,7 +165,7 @@ def test_attach_big_table_017():
 def test_attach_big_table_018():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -174,7 +174,7 @@ def test_attach_big_table_018():
 def test_attach_big_table_019():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -183,7 +183,7 @@ def test_attach_big_table_019():
 def test_attach_big_table_020():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -192,7 +192,7 @@ def test_attach_big_table_020():
 def test_attach_big_table_021():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -201,7 +201,7 @@ def test_attach_big_table_021():
 def test_attach_big_table_022():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -210,7 +210,7 @@ def test_attach_big_table_022():
 def test_attach_big_table_023():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -219,7 +219,7 @@ def test_attach_big_table_023():
 def test_attach_big_table_024():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -228,7 +228,7 @@ def test_attach_big_table_024():
 def test_attach_big_table_025():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -237,7 +237,7 @@ def test_attach_big_table_025():
 def test_attach_big_table_026():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -246,7 +246,7 @@ def test_attach_big_table_026():
 def test_attach_big_table_027():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -255,7 +255,7 @@ def test_attach_big_table_027():
 def test_attach_big_table_028():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -264,7 +264,7 @@ def test_attach_big_table_028():
 def test_attach_big_table_029():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -273,7 +273,7 @@ def test_attach_big_table_029():
 def test_attach_big_table_030():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -282,7 +282,7 @@ def test_attach_big_table_030():
 def test_attach_big_table_031():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -291,7 +291,7 @@ def test_attach_big_table_031():
 def test_attach_big_table_032():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -300,7 +300,7 @@ def test_attach_big_table_032():
 def test_attach_big_table_033():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -309,7 +309,7 @@ def test_attach_big_table_033():
 def test_attach_big_table_034():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -318,7 +318,7 @@ def test_attach_big_table_034():
 def test_attach_big_table_035():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -327,7 +327,7 @@ def test_attach_big_table_035():
 def test_attach_big_table_036():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -336,7 +336,7 @@ def test_attach_big_table_036():
 def test_attach_big_table_037():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -345,7 +345,7 @@ def test_attach_big_table_037():
 def test_attach_big_table_038():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -354,7 +354,7 @@ def test_attach_big_table_038():
 def test_attach_big_table_039():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -363,7 +363,7 @@ def test_attach_big_table_039():
 def test_attach_big_table_040():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -372,7 +372,7 @@ def test_attach_big_table_040():
 def test_attach_big_table_041():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -381,7 +381,7 @@ def test_attach_big_table_041():
 def test_attach_big_table_042():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -390,7 +390,7 @@ def test_attach_big_table_042():
 def test_attach_big_table_043():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -399,7 +399,7 @@ def test_attach_big_table_043():
 def test_attach_big_table_044():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -408,7 +408,7 @@ def test_attach_big_table_044():
 def test_attach_big_table_045():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -417,7 +417,7 @@ def test_attach_big_table_045():
 def test_attach_big_table_046():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -426,7 +426,7 @@ def test_attach_big_table_046():
 def test_attach_big_table_047():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -435,7 +435,7 @@ def test_attach_big_table_047():
 def test_attach_big_table_048():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -444,7 +444,7 @@ def test_attach_big_table_048():
 def test_attach_big_table_049():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -453,7 +453,7 @@ def test_attach_big_table_049():
 def test_attach_big_table_050():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -462,7 +462,7 @@ def test_attach_big_table_050():
 def test_attach_big_table_051():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -471,7 +471,7 @@ def test_attach_big_table_051():
 def test_attach_big_table_052():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -480,7 +480,7 @@ def test_attach_big_table_052():
 def test_attach_big_table_053():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -489,7 +489,7 @@ def test_attach_big_table_053():
 def test_attach_big_table_054():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -498,7 +498,7 @@ def test_attach_big_table_054():
 def test_attach_big_table_055():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -507,7 +507,7 @@ def test_attach_big_table_055():
 def test_attach_big_table_056():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -516,7 +516,7 @@ def test_attach_big_table_056():
 def test_attach_big_table_057():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -525,7 +525,7 @@ def test_attach_big_table_057():
 def test_attach_big_table_058():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -534,7 +534,7 @@ def test_attach_big_table_058():
 def test_attach_big_table_059():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -543,7 +543,7 @@ def test_attach_big_table_059():
 def test_attach_big_table_060():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -552,7 +552,7 @@ def test_attach_big_table_060():
 def test_attach_big_table_061():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -561,7 +561,7 @@ def test_attach_big_table_061():
 def test_attach_big_table_062():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -570,7 +570,7 @@ def test_attach_big_table_062():
 def test_attach_big_table_063():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -579,7 +579,7 @@ def test_attach_big_table_063():
 def test_attach_big_table_064():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -588,7 +588,7 @@ def test_attach_big_table_064():
 def test_attach_big_table_065():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -597,7 +597,7 @@ def test_attach_big_table_065():
 def test_attach_big_table_066():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -606,7 +606,7 @@ def test_attach_big_table_066():
 def test_attach_big_table_067():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -615,7 +615,7 @@ def test_attach_big_table_067():
 def test_attach_big_table_068():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -624,7 +624,7 @@ def test_attach_big_table_068():
 def test_attach_big_table_069():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -633,7 +633,7 @@ def test_attach_big_table_069():
 def test_attach_big_table_070():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -642,7 +642,7 @@ def test_attach_big_table_070():
 def test_attach_big_table_071():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -651,7 +651,7 @@ def test_attach_big_table_071():
 def test_attach_big_table_072():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -660,7 +660,7 @@ def test_attach_big_table_072():
 def test_attach_big_table_073():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -669,7 +669,7 @@ def test_attach_big_table_073():
 def test_attach_big_table_074():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -678,7 +678,7 @@ def test_attach_big_table_074():
 def test_attach_big_table_075():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -687,7 +687,7 @@ def test_attach_big_table_075():
 def test_attach_big_table_076():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -696,7 +696,7 @@ def test_attach_big_table_076():
 def test_attach_big_table_077():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -705,7 +705,7 @@ def test_attach_big_table_077():
 def test_attach_big_table_078():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -714,7 +714,7 @@ def test_attach_big_table_078():
 def test_attach_big_table_079():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -723,7 +723,7 @@ def test_attach_big_table_079():
 def test_attach_big_table_080():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -732,7 +732,7 @@ def test_attach_big_table_080():
 def test_attach_big_table_081():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -741,7 +741,7 @@ def test_attach_big_table_081():
 def test_attach_big_table_082():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -750,7 +750,7 @@ def test_attach_big_table_082():
 def test_attach_big_table_083():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -759,7 +759,7 @@ def test_attach_big_table_083():
 def test_attach_big_table_084():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -768,7 +768,7 @@ def test_attach_big_table_084():
 def test_attach_big_table_085():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -777,7 +777,7 @@ def test_attach_big_table_085():
 def test_attach_big_table_086():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -786,7 +786,7 @@ def test_attach_big_table_086():
 def test_attach_big_table_087():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -795,7 +795,7 @@ def test_attach_big_table_087():
 def test_attach_big_table_088():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -804,7 +804,7 @@ def test_attach_big_table_088():
 def test_attach_big_table_089():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -813,7 +813,7 @@ def test_attach_big_table_089():
 def test_attach_big_table_090():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -822,7 +822,7 @@ def test_attach_big_table_090():
 def test_attach_big_table_091():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -831,7 +831,7 @@ def test_attach_big_table_091():
 def test_attach_big_table_092():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -840,7 +840,7 @@ def test_attach_big_table_092():
 def test_attach_big_table_093():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -849,7 +849,7 @@ def test_attach_big_table_093():
 def test_attach_big_table_094():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -858,7 +858,7 @@ def test_attach_big_table_094():
 def test_attach_big_table_095():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -867,7 +867,7 @@ def test_attach_big_table_095():
 def test_attach_big_table_096():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -876,7 +876,7 @@ def test_attach_big_table_096():
 def test_attach_big_table_097():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -885,7 +885,7 @@ def test_attach_big_table_097():
 def test_attach_big_table_098():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -894,7 +894,7 @@ def test_attach_big_table_098():
 def test_attach_big_table_099():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -903,7 +903,7 @@ def test_attach_big_table_099():
 def test_attach_big_table_100():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "big-table.csv"), name="9Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -912,7 +912,7 @@ def test_attach_big_table_100():
 def test_attach_medium_table_001():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -921,7 +921,7 @@ def test_attach_medium_table_001():
 def test_attach_medium_table_002():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -930,7 +930,7 @@ def test_attach_medium_table_002():
 def test_attach_medium_table_003():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -939,7 +939,7 @@ def test_attach_medium_table_003():
 def test_attach_medium_table_004():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -948,7 +948,7 @@ def test_attach_medium_table_004():
 def test_attach_medium_table_005():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -957,7 +957,7 @@ def test_attach_medium_table_005():
 def test_attach_medium_table_006():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -966,7 +966,7 @@ def test_attach_medium_table_006():
 def test_attach_medium_table_007():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -975,7 +975,7 @@ def test_attach_medium_table_007():
 def test_attach_medium_table_008():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -984,7 +984,7 @@ def test_attach_medium_table_008():
 def test_attach_medium_table_009():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -993,7 +993,7 @@ def test_attach_medium_table_009():
 def test_attach_medium_table_010():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1002,7 +1002,7 @@ def test_attach_medium_table_010():
 def test_attach_medium_table_011():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1011,7 +1011,7 @@ def test_attach_medium_table_011():
 def test_attach_medium_table_012():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1020,7 +1020,7 @@ def test_attach_medium_table_012():
 def test_attach_medium_table_013():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1029,7 +1029,7 @@ def test_attach_medium_table_013():
 def test_attach_medium_table_014():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1038,7 +1038,7 @@ def test_attach_medium_table_014():
 def test_attach_medium_table_015():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1047,7 +1047,7 @@ def test_attach_medium_table_015():
 def test_attach_medium_table_016():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1056,7 +1056,7 @@ def test_attach_medium_table_016():
 def test_attach_medium_table_017():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1065,7 +1065,7 @@ def test_attach_medium_table_017():
 def test_attach_medium_table_018():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1074,7 +1074,7 @@ def test_attach_medium_table_018():
 def test_attach_medium_table_019():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1083,7 +1083,7 @@ def test_attach_medium_table_019():
 def test_attach_medium_table_020():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1092,7 +1092,7 @@ def test_attach_medium_table_020():
 def test_attach_medium_table_021():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1101,7 +1101,7 @@ def test_attach_medium_table_021():
 def test_attach_medium_table_022():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1110,7 +1110,7 @@ def test_attach_medium_table_022():
 def test_attach_medium_table_023():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1119,7 +1119,7 @@ def test_attach_medium_table_023():
 def test_attach_medium_table_024():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1128,7 +1128,7 @@ def test_attach_medium_table_024():
 def test_attach_medium_table_025():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1137,7 +1137,7 @@ def test_attach_medium_table_025():
 def test_attach_medium_table_026():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1146,7 +1146,7 @@ def test_attach_medium_table_026():
 def test_attach_medium_table_027():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1155,7 +1155,7 @@ def test_attach_medium_table_027():
 def test_attach_medium_table_028():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1164,7 +1164,7 @@ def test_attach_medium_table_028():
 def test_attach_medium_table_029():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1173,7 +1173,7 @@ def test_attach_medium_table_029():
 def test_attach_medium_table_030():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1182,7 +1182,7 @@ def test_attach_medium_table_030():
 def test_attach_medium_table_031():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1191,7 +1191,7 @@ def test_attach_medium_table_031():
 def test_attach_medium_table_032():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1200,7 +1200,7 @@ def test_attach_medium_table_032():
 def test_attach_medium_table_033():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1209,7 +1209,7 @@ def test_attach_medium_table_033():
 def test_attach_medium_table_034():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1218,7 +1218,7 @@ def test_attach_medium_table_034():
 def test_attach_medium_table_035():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1227,7 +1227,7 @@ def test_attach_medium_table_035():
 def test_attach_medium_table_036():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1236,7 +1236,7 @@ def test_attach_medium_table_036():
 def test_attach_medium_table_037():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1245,7 +1245,7 @@ def test_attach_medium_table_037():
 def test_attach_medium_table_038():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1254,7 +1254,7 @@ def test_attach_medium_table_038():
 def test_attach_medium_table_039():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1263,7 +1263,7 @@ def test_attach_medium_table_039():
 def test_attach_medium_table_040():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1272,7 +1272,7 @@ def test_attach_medium_table_040():
 def test_attach_medium_table_041():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1281,7 +1281,7 @@ def test_attach_medium_table_041():
 def test_attach_medium_table_042():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1290,7 +1290,7 @@ def test_attach_medium_table_042():
 def test_attach_medium_table_043():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1299,7 +1299,7 @@ def test_attach_medium_table_043():
 def test_attach_medium_table_044():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1308,7 +1308,7 @@ def test_attach_medium_table_044():
 def test_attach_medium_table_045():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1317,7 +1317,7 @@ def test_attach_medium_table_045():
 def test_attach_medium_table_046():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1326,7 +1326,7 @@ def test_attach_medium_table_046():
 def test_attach_medium_table_047():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1335,7 +1335,7 @@ def test_attach_medium_table_047():
 def test_attach_medium_table_048():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1344,7 +1344,7 @@ def test_attach_medium_table_048():
 def test_attach_medium_table_049():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1353,7 +1353,7 @@ def test_attach_medium_table_049():
 def test_attach_medium_table_050():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1362,7 +1362,7 @@ def test_attach_medium_table_050():
 def test_attach_medium_table_051():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1371,7 +1371,7 @@ def test_attach_medium_table_051():
 def test_attach_medium_table_052():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1380,7 +1380,7 @@ def test_attach_medium_table_052():
 def test_attach_medium_table_053():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1389,7 +1389,7 @@ def test_attach_medium_table_053():
 def test_attach_medium_table_054():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1398,7 +1398,7 @@ def test_attach_medium_table_054():
 def test_attach_medium_table_055():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1407,7 +1407,7 @@ def test_attach_medium_table_055():
 def test_attach_medium_table_056():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1416,7 +1416,7 @@ def test_attach_medium_table_056():
 def test_attach_medium_table_057():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1425,7 +1425,7 @@ def test_attach_medium_table_057():
 def test_attach_medium_table_058():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1434,7 +1434,7 @@ def test_attach_medium_table_058():
 def test_attach_medium_table_059():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1443,7 +1443,7 @@ def test_attach_medium_table_059():
 def test_attach_medium_table_060():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1452,7 +1452,7 @@ def test_attach_medium_table_060():
 def test_attach_medium_table_061():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1461,7 +1461,7 @@ def test_attach_medium_table_061():
 def test_attach_medium_table_062():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1470,7 +1470,7 @@ def test_attach_medium_table_062():
 def test_attach_medium_table_063():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1479,7 +1479,7 @@ def test_attach_medium_table_063():
 def test_attach_medium_table_064():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1488,7 +1488,7 @@ def test_attach_medium_table_064():
 def test_attach_medium_table_065():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1497,7 +1497,7 @@ def test_attach_medium_table_065():
 def test_attach_medium_table_066():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1506,7 +1506,7 @@ def test_attach_medium_table_066():
 def test_attach_medium_table_067():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1515,7 +1515,7 @@ def test_attach_medium_table_067():
 def test_attach_medium_table_068():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1524,7 +1524,7 @@ def test_attach_medium_table_068():
 def test_attach_medium_table_069():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1533,7 +1533,7 @@ def test_attach_medium_table_069():
 def test_attach_medium_table_070():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1542,7 +1542,7 @@ def test_attach_medium_table_070():
 def test_attach_medium_table_071():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1551,7 +1551,7 @@ def test_attach_medium_table_071():
 def test_attach_medium_table_072():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1560,7 +1560,7 @@ def test_attach_medium_table_072():
 def test_attach_medium_table_073():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1569,7 +1569,7 @@ def test_attach_medium_table_073():
 def test_attach_medium_table_074():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1578,7 +1578,7 @@ def test_attach_medium_table_074():
 def test_attach_medium_table_075():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1587,7 +1587,7 @@ def test_attach_medium_table_075():
 def test_attach_medium_table_076():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1596,7 +1596,7 @@ def test_attach_medium_table_076():
 def test_attach_medium_table_077():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1605,7 +1605,7 @@ def test_attach_medium_table_077():
 def test_attach_medium_table_078():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1614,7 +1614,7 @@ def test_attach_medium_table_078():
 def test_attach_medium_table_079():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1623,7 +1623,7 @@ def test_attach_medium_table_079():
 def test_attach_medium_table_080():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1632,7 +1632,7 @@ def test_attach_medium_table_080():
 def test_attach_medium_table_081():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1641,7 +1641,7 @@ def test_attach_medium_table_081():
 def test_attach_medium_table_082():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1650,7 +1650,7 @@ def test_attach_medium_table_082():
 def test_attach_medium_table_083():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1659,7 +1659,7 @@ def test_attach_medium_table_083():
 def test_attach_medium_table_084():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1668,7 +1668,7 @@ def test_attach_medium_table_084():
 def test_attach_medium_table_085():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1677,7 +1677,7 @@ def test_attach_medium_table_085():
 def test_attach_medium_table_086():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1686,7 +1686,7 @@ def test_attach_medium_table_086():
 def test_attach_medium_table_087():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1695,7 +1695,7 @@ def test_attach_medium_table_087():
 def test_attach_medium_table_088():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1704,7 +1704,7 @@ def test_attach_medium_table_088():
 def test_attach_medium_table_089():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1713,7 +1713,7 @@ def test_attach_medium_table_089():
 def test_attach_medium_table_090():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1722,7 +1722,7 @@ def test_attach_medium_table_090():
 def test_attach_medium_table_091():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1731,7 +1731,7 @@ def test_attach_medium_table_091():
 def test_attach_medium_table_092():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1740,7 +1740,7 @@ def test_attach_medium_table_092():
 def test_attach_medium_table_093():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1749,7 +1749,7 @@ def test_attach_medium_table_093():
 def test_attach_medium_table_094():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1758,7 +1758,7 @@ def test_attach_medium_table_094():
 def test_attach_medium_table_095():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1767,7 +1767,7 @@ def test_attach_medium_table_095():
 def test_attach_medium_table_096():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1776,7 +1776,7 @@ def test_attach_medium_table_096():
 def test_attach_medium_table_097():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1785,7 +1785,7 @@ def test_attach_medium_table_097():
 def test_attach_medium_table_098():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1794,7 +1794,7 @@ def test_attach_medium_table_098():
 def test_attach_medium_table_099():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1803,7 +1803,7 @@ def test_attach_medium_table_099():
 def test_attach_medium_table_100():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "medium-table.csv"), name="3Mb csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1812,7 +1812,7 @@ def test_attach_medium_table_100():
 def test_attach_normal_table_001():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1821,7 +1821,7 @@ def test_attach_normal_table_001():
 def test_attach_normal_table_002():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1830,7 +1830,7 @@ def test_attach_normal_table_002():
 def test_attach_normal_table_003():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1839,7 +1839,7 @@ def test_attach_normal_table_003():
 def test_attach_normal_table_004():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1848,7 +1848,7 @@ def test_attach_normal_table_004():
 def test_attach_normal_table_005():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1857,7 +1857,7 @@ def test_attach_normal_table_005():
 def test_attach_normal_table_006():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1866,7 +1866,7 @@ def test_attach_normal_table_006():
 def test_attach_normal_table_007():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1875,7 +1875,7 @@ def test_attach_normal_table_007():
 def test_attach_normal_table_008():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1884,7 +1884,7 @@ def test_attach_normal_table_008():
 def test_attach_normal_table_009():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1893,7 +1893,7 @@ def test_attach_normal_table_009():
 def test_attach_normal_table_010():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1902,7 +1902,7 @@ def test_attach_normal_table_010():
 def test_attach_normal_table_011():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1911,7 +1911,7 @@ def test_attach_normal_table_011():
 def test_attach_normal_table_012():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1920,7 +1920,7 @@ def test_attach_normal_table_012():
 def test_attach_normal_table_013():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1929,7 +1929,7 @@ def test_attach_normal_table_013():
 def test_attach_normal_table_014():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1938,7 +1938,7 @@ def test_attach_normal_table_014():
 def test_attach_normal_table_015():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1947,7 +1947,7 @@ def test_attach_normal_table_015():
 def test_attach_normal_table_016():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1956,7 +1956,7 @@ def test_attach_normal_table_016():
 def test_attach_normal_table_017():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1965,7 +1965,7 @@ def test_attach_normal_table_017():
 def test_attach_normal_table_018():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1974,7 +1974,7 @@ def test_attach_normal_table_018():
 def test_attach_normal_table_019():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1983,7 +1983,7 @@ def test_attach_normal_table_019():
 def test_attach_normal_table_020():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -1992,7 +1992,7 @@ def test_attach_normal_table_020():
 def test_attach_normal_table_021():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2001,7 +2001,7 @@ def test_attach_normal_table_021():
 def test_attach_normal_table_022():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2010,7 +2010,7 @@ def test_attach_normal_table_022():
 def test_attach_normal_table_023():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2019,7 +2019,7 @@ def test_attach_normal_table_023():
 def test_attach_normal_table_024():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2028,7 +2028,7 @@ def test_attach_normal_table_024():
 def test_attach_normal_table_025():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2037,7 +2037,7 @@ def test_attach_normal_table_025():
 def test_attach_normal_table_026():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2046,7 +2046,7 @@ def test_attach_normal_table_026():
 def test_attach_normal_table_027():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2055,7 +2055,7 @@ def test_attach_normal_table_027():
 def test_attach_normal_table_028():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2064,7 +2064,7 @@ def test_attach_normal_table_028():
 def test_attach_normal_table_029():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2073,7 +2073,7 @@ def test_attach_normal_table_029():
 def test_attach_normal_table_030():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2082,7 +2082,7 @@ def test_attach_normal_table_030():
 def test_attach_normal_table_031():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2091,7 +2091,7 @@ def test_attach_normal_table_031():
 def test_attach_normal_table_032():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2100,7 +2100,7 @@ def test_attach_normal_table_032():
 def test_attach_normal_table_033():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2109,7 +2109,7 @@ def test_attach_normal_table_033():
 def test_attach_normal_table_034():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2118,7 +2118,7 @@ def test_attach_normal_table_034():
 def test_attach_normal_table_035():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2127,7 +2127,7 @@ def test_attach_normal_table_035():
 def test_attach_normal_table_036():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2136,7 +2136,7 @@ def test_attach_normal_table_036():
 def test_attach_normal_table_037():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2145,7 +2145,7 @@ def test_attach_normal_table_037():
 def test_attach_normal_table_038():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2154,7 +2154,7 @@ def test_attach_normal_table_038():
 def test_attach_normal_table_039():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2163,7 +2163,7 @@ def test_attach_normal_table_039():
 def test_attach_normal_table_040():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2172,7 +2172,7 @@ def test_attach_normal_table_040():
 def test_attach_normal_table_041():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2181,7 +2181,7 @@ def test_attach_normal_table_041():
 def test_attach_normal_table_042():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2190,7 +2190,7 @@ def test_attach_normal_table_042():
 def test_attach_normal_table_043():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2199,7 +2199,7 @@ def test_attach_normal_table_043():
 def test_attach_normal_table_044():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2208,7 +2208,7 @@ def test_attach_normal_table_044():
 def test_attach_normal_table_045():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2217,7 +2217,7 @@ def test_attach_normal_table_045():
 def test_attach_normal_table_046():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2226,7 +2226,7 @@ def test_attach_normal_table_046():
 def test_attach_normal_table_047():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2235,7 +2235,7 @@ def test_attach_normal_table_047():
 def test_attach_normal_table_048():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2244,7 +2244,7 @@ def test_attach_normal_table_048():
 def test_attach_normal_table_049():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2253,7 +2253,7 @@ def test_attach_normal_table_049():
 def test_attach_normal_table_050():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2262,7 +2262,7 @@ def test_attach_normal_table_050():
 def test_attach_normal_table_051():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2271,7 +2271,7 @@ def test_attach_normal_table_051():
 def test_attach_normal_table_052():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2280,7 +2280,7 @@ def test_attach_normal_table_052():
 def test_attach_normal_table_053():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2289,7 +2289,7 @@ def test_attach_normal_table_053():
 def test_attach_normal_table_054():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2298,7 +2298,7 @@ def test_attach_normal_table_054():
 def test_attach_normal_table_055():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2307,7 +2307,7 @@ def test_attach_normal_table_055():
 def test_attach_normal_table_056():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2316,7 +2316,7 @@ def test_attach_normal_table_056():
 def test_attach_normal_table_057():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2325,7 +2325,7 @@ def test_attach_normal_table_057():
 def test_attach_normal_table_058():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2334,7 +2334,7 @@ def test_attach_normal_table_058():
 def test_attach_normal_table_059():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2343,7 +2343,7 @@ def test_attach_normal_table_059():
 def test_attach_normal_table_060():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2352,7 +2352,7 @@ def test_attach_normal_table_060():
 def test_attach_normal_table_061():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2361,7 +2361,7 @@ def test_attach_normal_table_061():
 def test_attach_normal_table_062():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2370,7 +2370,7 @@ def test_attach_normal_table_062():
 def test_attach_normal_table_063():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2379,7 +2379,7 @@ def test_attach_normal_table_063():
 def test_attach_normal_table_064():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2388,7 +2388,7 @@ def test_attach_normal_table_064():
 def test_attach_normal_table_065():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2397,7 +2397,7 @@ def test_attach_normal_table_065():
 def test_attach_normal_table_066():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2406,7 +2406,7 @@ def test_attach_normal_table_066():
 def test_attach_normal_table_067():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2415,7 +2415,7 @@ def test_attach_normal_table_067():
 def test_attach_normal_table_068():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2424,7 +2424,7 @@ def test_attach_normal_table_068():
 def test_attach_normal_table_069():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2433,7 +2433,7 @@ def test_attach_normal_table_069():
 def test_attach_normal_table_070():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2442,7 +2442,7 @@ def test_attach_normal_table_070():
 def test_attach_normal_table_071():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2451,7 +2451,7 @@ def test_attach_normal_table_071():
 def test_attach_normal_table_072():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2460,7 +2460,7 @@ def test_attach_normal_table_072():
 def test_attach_normal_table_073():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2469,7 +2469,7 @@ def test_attach_normal_table_073():
 def test_attach_normal_table_074():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2478,7 +2478,7 @@ def test_attach_normal_table_074():
 def test_attach_normal_table_075():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2487,7 +2487,7 @@ def test_attach_normal_table_075():
 def test_attach_normal_table_076():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2496,7 +2496,7 @@ def test_attach_normal_table_076():
 def test_attach_normal_table_077():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2505,7 +2505,7 @@ def test_attach_normal_table_077():
 def test_attach_normal_table_078():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2514,7 +2514,7 @@ def test_attach_normal_table_078():
 def test_attach_normal_table_079():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2523,7 +2523,7 @@ def test_attach_normal_table_079():
 def test_attach_normal_table_080():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2532,7 +2532,7 @@ def test_attach_normal_table_080():
 def test_attach_normal_table_081():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2541,7 +2541,7 @@ def test_attach_normal_table_081():
 def test_attach_normal_table_082():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2550,7 +2550,7 @@ def test_attach_normal_table_082():
 def test_attach_normal_table_083():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2559,7 +2559,7 @@ def test_attach_normal_table_083():
 def test_attach_normal_table_084():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2568,7 +2568,7 @@ def test_attach_normal_table_084():
 def test_attach_normal_table_085():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2577,7 +2577,7 @@ def test_attach_normal_table_085():
 def test_attach_normal_table_086():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2586,7 +2586,7 @@ def test_attach_normal_table_086():
 def test_attach_normal_table_087():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2595,7 +2595,7 @@ def test_attach_normal_table_087():
 def test_attach_normal_table_088():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2604,7 +2604,7 @@ def test_attach_normal_table_088():
 def test_attach_normal_table_089():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2613,7 +2613,7 @@ def test_attach_normal_table_089():
 def test_attach_normal_table_090():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2622,7 +2622,7 @@ def test_attach_normal_table_090():
 def test_attach_normal_table_091():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2631,7 +2631,7 @@ def test_attach_normal_table_091():
 def test_attach_normal_table_092():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2640,7 +2640,7 @@ def test_attach_normal_table_092():
 def test_attach_normal_table_093():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2649,7 +2649,7 @@ def test_attach_normal_table_093():
 def test_attach_normal_table_094():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2658,7 +2658,7 @@ def test_attach_normal_table_094():
 def test_attach_normal_table_095():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2667,7 +2667,7 @@ def test_attach_normal_table_095():
 def test_attach_normal_table_096():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2676,7 +2676,7 @@ def test_attach_normal_table_096():
 def test_attach_normal_table_097():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2685,7 +2685,7 @@ def test_attach_normal_table_097():
 def test_attach_normal_table_098():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2694,7 +2694,7 @@ def test_attach_normal_table_098():
 def test_attach_normal_table_099():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2703,7 +2703,7 @@ def test_attach_normal_table_099():
 def test_attach_normal_table_100():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "normal-table.csv"), name="200 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2712,7 +2712,7 @@ def test_attach_normal_table_100():
 def test_attach_small_table_001():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2721,7 +2721,7 @@ def test_attach_small_table_001():
 def test_attach_small_table_002():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2730,7 +2730,7 @@ def test_attach_small_table_002():
 def test_attach_small_table_003():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2739,7 +2739,7 @@ def test_attach_small_table_003():
 def test_attach_small_table_004():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2748,7 +2748,7 @@ def test_attach_small_table_004():
 def test_attach_small_table_005():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2757,7 +2757,7 @@ def test_attach_small_table_005():
 def test_attach_small_table_006():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2766,7 +2766,7 @@ def test_attach_small_table_006():
 def test_attach_small_table_007():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2775,7 +2775,7 @@ def test_attach_small_table_007():
 def test_attach_small_table_008():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2784,7 +2784,7 @@ def test_attach_small_table_008():
 def test_attach_small_table_009():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2793,7 +2793,7 @@ def test_attach_small_table_009():
 def test_attach_small_table_010():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2802,7 +2802,7 @@ def test_attach_small_table_010():
 def test_attach_small_table_011():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2811,7 +2811,7 @@ def test_attach_small_table_011():
 def test_attach_small_table_012():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2820,7 +2820,7 @@ def test_attach_small_table_012():
 def test_attach_small_table_013():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2829,7 +2829,7 @@ def test_attach_small_table_013():
 def test_attach_small_table_014():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2838,7 +2838,7 @@ def test_attach_small_table_014():
 def test_attach_small_table_015():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2847,7 +2847,7 @@ def test_attach_small_table_015():
 def test_attach_small_table_016():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2856,7 +2856,7 @@ def test_attach_small_table_016():
 def test_attach_small_table_017():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2865,7 +2865,7 @@ def test_attach_small_table_017():
 def test_attach_small_table_018():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2874,7 +2874,7 @@ def test_attach_small_table_018():
 def test_attach_small_table_019():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2883,7 +2883,7 @@ def test_attach_small_table_019():
 def test_attach_small_table_020():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2892,7 +2892,7 @@ def test_attach_small_table_020():
 def test_attach_small_table_021():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2901,7 +2901,7 @@ def test_attach_small_table_021():
 def test_attach_small_table_022():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2910,7 +2910,7 @@ def test_attach_small_table_022():
 def test_attach_small_table_023():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2919,7 +2919,7 @@ def test_attach_small_table_023():
 def test_attach_small_table_024():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2928,7 +2928,7 @@ def test_attach_small_table_024():
 def test_attach_small_table_025():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2937,7 +2937,7 @@ def test_attach_small_table_025():
 def test_attach_small_table_026():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2946,7 +2946,7 @@ def test_attach_small_table_026():
 def test_attach_small_table_027():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2955,7 +2955,7 @@ def test_attach_small_table_027():
 def test_attach_small_table_028():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2964,7 +2964,7 @@ def test_attach_small_table_028():
 def test_attach_small_table_029():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2973,7 +2973,7 @@ def test_attach_small_table_029():
 def test_attach_small_table_030():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2982,7 +2982,7 @@ def test_attach_small_table_030():
 def test_attach_small_table_031():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -2991,7 +2991,7 @@ def test_attach_small_table_031():
 def test_attach_small_table_032():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3000,7 +3000,7 @@ def test_attach_small_table_032():
 def test_attach_small_table_033():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3009,7 +3009,7 @@ def test_attach_small_table_033():
 def test_attach_small_table_034():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3018,7 +3018,7 @@ def test_attach_small_table_034():
 def test_attach_small_table_035():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3027,7 +3027,7 @@ def test_attach_small_table_035():
 def test_attach_small_table_036():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3036,7 +3036,7 @@ def test_attach_small_table_036():
 def test_attach_small_table_037():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3045,7 +3045,7 @@ def test_attach_small_table_037():
 def test_attach_small_table_038():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3054,7 +3054,7 @@ def test_attach_small_table_038():
 def test_attach_small_table_039():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3063,7 +3063,7 @@ def test_attach_small_table_039():
 def test_attach_small_table_040():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3072,7 +3072,7 @@ def test_attach_small_table_040():
 def test_attach_small_table_041():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3081,7 +3081,7 @@ def test_attach_small_table_041():
 def test_attach_small_table_042():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3090,7 +3090,7 @@ def test_attach_small_table_042():
 def test_attach_small_table_043():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3099,7 +3099,7 @@ def test_attach_small_table_043():
 def test_attach_small_table_044():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3108,7 +3108,7 @@ def test_attach_small_table_044():
 def test_attach_small_table_045():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3117,7 +3117,7 @@ def test_attach_small_table_045():
 def test_attach_small_table_046():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3126,7 +3126,7 @@ def test_attach_small_table_046():
 def test_attach_small_table_047():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3135,7 +3135,7 @@ def test_attach_small_table_047():
 def test_attach_small_table_048():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3144,7 +3144,7 @@ def test_attach_small_table_048():
 def test_attach_small_table_049():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3153,7 +3153,7 @@ def test_attach_small_table_049():
 def test_attach_small_table_050():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3162,7 +3162,7 @@ def test_attach_small_table_050():
 def test_attach_small_table_051():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3171,7 +3171,7 @@ def test_attach_small_table_051():
 def test_attach_small_table_052():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3180,7 +3180,7 @@ def test_attach_small_table_052():
 def test_attach_small_table_053():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3189,7 +3189,7 @@ def test_attach_small_table_053():
 def test_attach_small_table_054():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3198,7 +3198,7 @@ def test_attach_small_table_054():
 def test_attach_small_table_055():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3207,7 +3207,7 @@ def test_attach_small_table_055():
 def test_attach_small_table_056():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3216,7 +3216,7 @@ def test_attach_small_table_056():
 def test_attach_small_table_057():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3225,7 +3225,7 @@ def test_attach_small_table_057():
 def test_attach_small_table_058():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3234,7 +3234,7 @@ def test_attach_small_table_058():
 def test_attach_small_table_059():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3243,7 +3243,7 @@ def test_attach_small_table_059():
 def test_attach_small_table_060():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3252,7 +3252,7 @@ def test_attach_small_table_060():
 def test_attach_small_table_061():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3261,7 +3261,7 @@ def test_attach_small_table_061():
 def test_attach_small_table_062():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3270,7 +3270,7 @@ def test_attach_small_table_062():
 def test_attach_small_table_063():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3279,7 +3279,7 @@ def test_attach_small_table_063():
 def test_attach_small_table_064():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3288,7 +3288,7 @@ def test_attach_small_table_064():
 def test_attach_small_table_065():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3297,7 +3297,7 @@ def test_attach_small_table_065():
 def test_attach_small_table_066():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3306,7 +3306,7 @@ def test_attach_small_table_066():
 def test_attach_small_table_067():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3315,7 +3315,7 @@ def test_attach_small_table_067():
 def test_attach_small_table_068():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3324,7 +3324,7 @@ def test_attach_small_table_068():
 def test_attach_small_table_069():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3333,7 +3333,7 @@ def test_attach_small_table_069():
 def test_attach_small_table_070():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3342,7 +3342,7 @@ def test_attach_small_table_070():
 def test_attach_small_table_071():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3351,7 +3351,7 @@ def test_attach_small_table_071():
 def test_attach_small_table_072():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3360,7 +3360,7 @@ def test_attach_small_table_072():
 def test_attach_small_table_073():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3369,7 +3369,7 @@ def test_attach_small_table_073():
 def test_attach_small_table_074():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3378,7 +3378,7 @@ def test_attach_small_table_074():
 def test_attach_small_table_075():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3387,7 +3387,7 @@ def test_attach_small_table_075():
 def test_attach_small_table_076():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3396,7 +3396,7 @@ def test_attach_small_table_076():
 def test_attach_small_table_077():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3405,7 +3405,7 @@ def test_attach_small_table_077():
 def test_attach_small_table_078():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3414,7 +3414,7 @@ def test_attach_small_table_078():
 def test_attach_small_table_079():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3423,7 +3423,7 @@ def test_attach_small_table_079():
 def test_attach_small_table_080():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3432,7 +3432,7 @@ def test_attach_small_table_080():
 def test_attach_small_table_081():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3441,7 +3441,7 @@ def test_attach_small_table_081():
 def test_attach_small_table_082():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3450,7 +3450,7 @@ def test_attach_small_table_082():
 def test_attach_small_table_083():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3459,7 +3459,7 @@ def test_attach_small_table_083():
 def test_attach_small_table_084():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3468,7 +3468,7 @@ def test_attach_small_table_084():
 def test_attach_small_table_085():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3477,7 +3477,7 @@ def test_attach_small_table_085():
 def test_attach_small_table_086():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3486,7 +3486,7 @@ def test_attach_small_table_086():
 def test_attach_small_table_087():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3495,7 +3495,7 @@ def test_attach_small_table_087():
 def test_attach_small_table_088():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3504,7 +3504,7 @@ def test_attach_small_table_088():
 def test_attach_small_table_089():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3513,7 +3513,7 @@ def test_attach_small_table_089():
 def test_attach_small_table_090():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3522,7 +3522,7 @@ def test_attach_small_table_090():
 def test_attach_small_table_091():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3531,7 +3531,7 @@ def test_attach_small_table_091():
 def test_attach_small_table_092():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3540,7 +3540,7 @@ def test_attach_small_table_092():
 def test_attach_small_table_093():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3549,7 +3549,7 @@ def test_attach_small_table_093():
 def test_attach_small_table_094():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3558,7 +3558,7 @@ def test_attach_small_table_094():
 def test_attach_small_table_095():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3567,7 +3567,7 @@ def test_attach_small_table_095():
 def test_attach_small_table_096():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3576,7 +3576,7 @@ def test_attach_small_table_096():
 def test_attach_small_table_097():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3585,7 +3585,7 @@ def test_attach_small_table_097():
 def test_attach_small_table_098():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3594,7 +3594,7 @@ def test_attach_small_table_098():
 def test_attach_small_table_099():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 
 @allure.suite("cloud instance")
 @allure.story("smoking pytest")
@@ -3603,5 +3603,5 @@ def test_attach_small_table_099():
 def test_attach_small_table_100():
     if random.choice([True, False]):
         with allure.step("CSV attach"):
-            allure.attach.file(os.path.join("../resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-table.csv"), name="10 kbytes csv example", attachment_type=attachment_type.CSV)
 

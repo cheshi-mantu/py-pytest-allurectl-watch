@@ -11,13 +11,13 @@ from allure import attachment_type
 def test_attach_smallfile_001():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -34,13 +34,13 @@ def test_attach_smallfile_001():
 def test_attach_smallfile_002():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -57,13 +57,13 @@ def test_attach_smallfile_002():
 def test_attach_smallfile_003():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -80,13 +80,13 @@ def test_attach_smallfile_003():
 def test_attach_smallfile_004():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -103,13 +103,13 @@ def test_attach_smallfile_004():
 def test_attach_smallfile_005():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -126,13 +126,13 @@ def test_attach_smallfile_005():
 def test_attach_smallfile_006():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -149,13 +149,13 @@ def test_attach_smallfile_006():
 def test_attach_smallfile_007():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -172,13 +172,13 @@ def test_attach_smallfile_007():
 def test_attach_smallfile_008():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -195,13 +195,13 @@ def test_attach_smallfile_008():
 def test_attach_smallfile_009():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -218,13 +218,13 @@ def test_attach_smallfile_009():
 def test_attach_smallfile_010():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -241,13 +241,13 @@ def test_attach_smallfile_010():
 def test_attach_smallfile_011():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -264,13 +264,13 @@ def test_attach_smallfile_011():
 def test_attach_smallfile_012():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -287,13 +287,13 @@ def test_attach_smallfile_012():
 def test_attach_smallfile_013():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -310,13 +310,13 @@ def test_attach_smallfile_013():
 def test_attach_smallfile_014():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -333,13 +333,13 @@ def test_attach_smallfile_014():
 def test_attach_smallfile_015():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -356,13 +356,13 @@ def test_attach_smallfile_015():
 def test_attach_smallfile_016():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -379,13 +379,13 @@ def test_attach_smallfile_016():
 def test_attach_smallfile_017():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -402,13 +402,13 @@ def test_attach_smallfile_017():
 def test_attach_smallfile_018():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -425,13 +425,13 @@ def test_attach_smallfile_018():
 def test_attach_smallfile_019():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -448,13 +448,13 @@ def test_attach_smallfile_019():
 def test_attach_smallfile_020():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -471,13 +471,13 @@ def test_attach_smallfile_020():
 def test_attach_smallfile_021():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -494,13 +494,13 @@ def test_attach_smallfile_021():
 def test_attach_smallfile_022():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -517,13 +517,13 @@ def test_attach_smallfile_022():
 def test_attach_smallfile_023():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -540,13 +540,13 @@ def test_attach_smallfile_023():
 def test_attach_smallfile_024():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -563,13 +563,13 @@ def test_attach_smallfile_024():
 def test_attach_smallfile_025():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -586,13 +586,13 @@ def test_attach_smallfile_025():
 def test_attach_smallfile_026():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -609,13 +609,13 @@ def test_attach_smallfile_026():
 def test_attach_smallfile_027():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -632,13 +632,13 @@ def test_attach_smallfile_027():
 def test_attach_smallfile_028():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -655,13 +655,13 @@ def test_attach_smallfile_028():
 def test_attach_smallfile_029():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -678,13 +678,13 @@ def test_attach_smallfile_029():
 def test_attach_smallfile_030():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -701,13 +701,13 @@ def test_attach_smallfile_030():
 def test_attach_smallfile_031():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -724,13 +724,13 @@ def test_attach_smallfile_031():
 def test_attach_smallfile_032():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -747,13 +747,13 @@ def test_attach_smallfile_032():
 def test_attach_smallfile_033():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -770,13 +770,13 @@ def test_attach_smallfile_033():
 def test_attach_smallfile_034():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -793,13 +793,13 @@ def test_attach_smallfile_034():
 def test_attach_smallfile_035():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -816,13 +816,13 @@ def test_attach_smallfile_035():
 def test_attach_smallfile_036():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -839,13 +839,13 @@ def test_attach_smallfile_036():
 def test_attach_smallfile_037():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -862,13 +862,13 @@ def test_attach_smallfile_037():
 def test_attach_smallfile_038():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -885,13 +885,13 @@ def test_attach_smallfile_038():
 def test_attach_smallfile_039():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -908,13 +908,13 @@ def test_attach_smallfile_039():
 def test_attach_smallfile_040():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -931,13 +931,13 @@ def test_attach_smallfile_040():
 def test_attach_smallfile_041():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -954,13 +954,13 @@ def test_attach_smallfile_041():
 def test_attach_smallfile_042():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -977,13 +977,13 @@ def test_attach_smallfile_042():
 def test_attach_smallfile_043():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1000,13 +1000,13 @@ def test_attach_smallfile_043():
 def test_attach_smallfile_044():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1023,13 +1023,13 @@ def test_attach_smallfile_044():
 def test_attach_smallfile_045():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1046,13 +1046,13 @@ def test_attach_smallfile_045():
 def test_attach_smallfile_046():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1069,13 +1069,13 @@ def test_attach_smallfile_046():
 def test_attach_smallfile_047():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1092,13 +1092,13 @@ def test_attach_smallfile_047():
 def test_attach_smallfile_048():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1115,13 +1115,13 @@ def test_attach_smallfile_048():
 def test_attach_smallfile_049():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1138,13 +1138,13 @@ def test_attach_smallfile_049():
 def test_attach_smallfile_050():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1161,13 +1161,13 @@ def test_attach_smallfile_050():
 def test_attach_smallfile_051():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1184,13 +1184,13 @@ def test_attach_smallfile_051():
 def test_attach_smallfile_052():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1207,13 +1207,13 @@ def test_attach_smallfile_052():
 def test_attach_smallfile_053():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1230,13 +1230,13 @@ def test_attach_smallfile_053():
 def test_attach_smallfile_054():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1253,13 +1253,13 @@ def test_attach_smallfile_054():
 def test_attach_smallfile_055():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1276,13 +1276,13 @@ def test_attach_smallfile_055():
 def test_attach_smallfile_056():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1299,13 +1299,13 @@ def test_attach_smallfile_056():
 def test_attach_smallfile_057():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1322,13 +1322,13 @@ def test_attach_smallfile_057():
 def test_attach_smallfile_058():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1345,13 +1345,13 @@ def test_attach_smallfile_058():
 def test_attach_smallfile_059():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1368,13 +1368,13 @@ def test_attach_smallfile_059():
 def test_attach_smallfile_060():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1391,13 +1391,13 @@ def test_attach_smallfile_060():
 def test_attach_smallfile_061():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1414,13 +1414,13 @@ def test_attach_smallfile_061():
 def test_attach_smallfile_062():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1437,13 +1437,13 @@ def test_attach_smallfile_062():
 def test_attach_smallfile_063():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1460,13 +1460,13 @@ def test_attach_smallfile_063():
 def test_attach_smallfile_064():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1483,13 +1483,13 @@ def test_attach_smallfile_064():
 def test_attach_smallfile_065():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1506,13 +1506,13 @@ def test_attach_smallfile_065():
 def test_attach_smallfile_066():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1529,13 +1529,13 @@ def test_attach_smallfile_066():
 def test_attach_smallfile_067():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1552,13 +1552,13 @@ def test_attach_smallfile_067():
 def test_attach_smallfile_068():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1575,13 +1575,13 @@ def test_attach_smallfile_068():
 def test_attach_smallfile_069():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1598,13 +1598,13 @@ def test_attach_smallfile_069():
 def test_attach_smallfile_070():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1621,13 +1621,13 @@ def test_attach_smallfile_070():
 def test_attach_smallfile_071():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1644,13 +1644,13 @@ def test_attach_smallfile_071():
 def test_attach_smallfile_072():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1667,13 +1667,13 @@ def test_attach_smallfile_072():
 def test_attach_smallfile_073():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1690,13 +1690,13 @@ def test_attach_smallfile_073():
 def test_attach_smallfile_074():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1713,13 +1713,13 @@ def test_attach_smallfile_074():
 def test_attach_smallfile_075():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1736,13 +1736,13 @@ def test_attach_smallfile_075():
 def test_attach_smallfile_076():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1759,13 +1759,13 @@ def test_attach_smallfile_076():
 def test_attach_smallfile_077():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1782,13 +1782,13 @@ def test_attach_smallfile_077():
 def test_attach_smallfile_078():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1805,13 +1805,13 @@ def test_attach_smallfile_078():
 def test_attach_smallfile_079():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1828,13 +1828,13 @@ def test_attach_smallfile_079():
 def test_attach_smallfile_080():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1851,13 +1851,13 @@ def test_attach_smallfile_080():
 def test_attach_smallfile_081():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1874,13 +1874,13 @@ def test_attach_smallfile_081():
 def test_attach_smallfile_082():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1897,13 +1897,13 @@ def test_attach_smallfile_082():
 def test_attach_smallfile_083():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1920,13 +1920,13 @@ def test_attach_smallfile_083():
 def test_attach_smallfile_084():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1943,13 +1943,13 @@ def test_attach_smallfile_084():
 def test_attach_smallfile_085():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1966,13 +1966,13 @@ def test_attach_smallfile_085():
 def test_attach_smallfile_086():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -1989,13 +1989,13 @@ def test_attach_smallfile_086():
 def test_attach_smallfile_087():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -2012,13 +2012,13 @@ def test_attach_smallfile_087():
 def test_attach_smallfile_088():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -2035,13 +2035,13 @@ def test_attach_smallfile_088():
 def test_attach_smallfile_089():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -2058,13 +2058,13 @@ def test_attach_smallfile_089():
 def test_attach_smallfile_090():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -2081,13 +2081,13 @@ def test_attach_smallfile_090():
 def test_attach_smallfile_091():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -2104,13 +2104,13 @@ def test_attach_smallfile_091():
 def test_attach_smallfile_092():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -2127,13 +2127,13 @@ def test_attach_smallfile_092():
 def test_attach_smallfile_093():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -2150,13 +2150,13 @@ def test_attach_smallfile_093():
 def test_attach_smallfile_094():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -2173,13 +2173,13 @@ def test_attach_smallfile_094():
 def test_attach_smallfile_095():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -2196,13 +2196,13 @@ def test_attach_smallfile_095():
 def test_attach_smallfile_096():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -2219,13 +2219,13 @@ def test_attach_smallfile_096():
 def test_attach_smallfile_097():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -2242,13 +2242,13 @@ def test_attach_smallfile_097():
 def test_attach_smallfile_098():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -2265,13 +2265,13 @@ def test_attach_smallfile_098():
 def test_attach_smallfile_099():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
@@ -2288,13 +2288,13 @@ def test_attach_smallfile_099():
 def test_attach_smallfile_100():
     if random.choice([True, False]):
         with allure.step("Sending normal 10 kbytes JPG attach"):
-            allure.attach.file(os.path.join("../resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "small-image.jpg"), name="10 Kb JPG example", attachment_type=attachment_type.JPG)
     if random.choice([True, False]):
         with allure.step("HTML attach"):
             allure.attach("<h1>Example html attachment</h1>", name="HTML example", attachment_type=attachment_type.HTML)
     if random.choice([True, False]):
         with allure.step("txt attach"):
-            allure.attach.file(os.path.join("../resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
+            allure.attach.file(os.path.join(os.path.dirname(__file__), "..", "resources", "chekhov.txt"), name="letter to the neighbour", attachment_type=attachment_type.TEXT)
     if random.choice([True, False]):
         with allure.step("CSV attach"):
             allure.attach('first,second,third\none,two,three', name="CSV example", attachment_type=attachment_type.CSV)
