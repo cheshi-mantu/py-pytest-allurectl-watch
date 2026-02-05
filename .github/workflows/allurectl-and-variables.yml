@@ -38,7 +38,7 @@ jobs:
       - name: install and configure allurectl
         uses: allure-framework/setup-allurectl@v1
         with:
-          allure-endpoint: https://testing.testops.cloud/
+          allure-endpoint: ${{ secrets.ALLURE_ENDPOINT_TESTING }}
           allure-token: ${{ secrets.ALLURE_TOKEN_TESTING }}
           allure-project-id: 276
       - name: Run pytest tests
