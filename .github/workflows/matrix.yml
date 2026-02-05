@@ -38,9 +38,8 @@ jobs:
           allure-project-id: 276
       - name: Run pytest tests
         run: |
-          allurectl watch -- pytest --alluredir=${ALLURE_RESULTS}
+          allurectl watch -- pytest tests --alluredir=${ALLURE_RESULTS}
         env:
-          ALLURE_TESTPLAN_PATH: "./testplan.json"
           ALLURE_RESULTS: "allure-results"
           ALLURE_JOB_RUN_ID: ${{ github.event.inputs.ALLURE_JOB_RUN_ID }}
           THREADS: ${{ matrix.THREADS }}
