@@ -8,6 +8,8 @@ from conftest import _should_fail
 @allure.title("Assert a tuple 001 and it will fail")
 def test_unit_always_passing_001():
     with allure.step("Start stuff"):
+        allure.global_attach("This is a global attachment", "text/plain")
+        allure.global_error("This is a global error message")
         assert not _should_fail(), "Failure due to reason ODD"
     with allure.step("Click stuff"):
         assert not _should_fail(), "Failure due to reason ODD"
