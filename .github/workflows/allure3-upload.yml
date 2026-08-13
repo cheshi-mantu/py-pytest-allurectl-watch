@@ -1,6 +1,7 @@
 name: upload to allure testops using allure3
 
 on:
+  pull_request:
   workflow_dispatch:
     inputs:
       TESTS_TYPE:
