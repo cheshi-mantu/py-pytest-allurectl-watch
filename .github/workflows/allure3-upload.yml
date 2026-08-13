@@ -38,7 +38,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 24
-          cache: "npm"
+          cache: "pnpm"
       - uses: actions/setup-python@v4
         with:
           python-version: '3.10'
@@ -48,12 +48,12 @@ jobs:
           pip install allure-pytest pytest pytest-xdist
       - name: install allure3
         run: |
-          npm install -g allure
-          npm init -y
-          npm add -D allure
+          pnpm install -g allure
+          pnpm init -y
+          pnpm add -D allure
       - name: run pytest tests and upload to Allure TestOps
         run: | 
-          npm exec allure run --config=./testops.mjs -- pytest /${{ inputs.TESTS_TYPE }} -n ${{ inputs.PYTEST_THREADS }} --alluredir=allure-results
+          pnpm allure run --config=./testops.mjs -- pytest /${{ inputs.TESTS_TYPE }} -n ${{ inputs.PYTEST_THREADS }} --alluredir=allure-results
         env:
           ALLURE_ENDPOINT: ${{ secrets.ALLURE_ENDPOINT_TESTING }}
           ALLURE_TOKEN: ${{ secrets.ALLURE_TOKEN_TESTING }}
