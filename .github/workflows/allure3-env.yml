@@ -15,10 +15,6 @@ on:
           - tests/fixtures
           - tests
         default: tests/poco
-      PYTEST_THREADS:
-        description: "How many threads, sire?"
-        required: true
-        default: 1
       TESTS_SUCCESS:
         description: "Select if tests pass or fail"
         required: true
@@ -29,6 +25,10 @@ on:
           - never
           - broken
         default: always
+      PYTEST_THREADS:
+        description: "How many threads, sire?"
+        required: true
+        default: 1
 
 jobs:
   all-tests:
