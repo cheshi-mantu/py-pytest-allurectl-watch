@@ -8,13 +8,14 @@ on:
         required: true
         type: choice
         options:
-          - tests/poco
-          - tests/unit-many
-          - tests/unit
-          - tests/attachments
-          - tests/fixtures
-          - tests
-        default: tests/poco
+          - tests/poco/
+          - tests/unit_many/
+          - tests/unit_3k/
+          - tests/unit/
+          - tests/attachments/
+          - tests/fixtures/
+          - tests/
+        default: tests/poco/
       TESTS_SUCCESS:
         description: "Select type of tests"
         required: true
