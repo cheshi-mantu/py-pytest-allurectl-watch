@@ -2,6 +2,9 @@ name: upload to allure testops using allure3
 
 on:
   pull_request:
+    types: [opened, synchronize, reopened, closed]
+    branches:
+      - main
   workflow_dispatch:
     inputs:
       TESTS_TYPE:
@@ -34,6 +37,7 @@ on:
 
 jobs:
   all-tests:
+    if: github.event.action != 'closed' || github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
