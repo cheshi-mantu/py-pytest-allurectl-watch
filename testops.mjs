@@ -74,7 +74,9 @@ export default defineConfig({
   },
   plugins: {
     testops: {
-      options: { },
+      options: {
+        gitFlow: true
+       },
     },
   },
   variables: { },
