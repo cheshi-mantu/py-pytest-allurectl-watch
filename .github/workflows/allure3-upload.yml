@@ -55,7 +55,7 @@ jobs:
           npm add -D allure
       - name: run pytest tests and upload to Allure TestOps
         run: | 
-          npx allure run --config=./testops.mjs -- pytest ${{ inputs.TESTS_TYPE }} -n ${{ inputs.PYTEST_THREADS }} --alluredir=${ALLURE_RESULTS}
+          npx allure run --config=./testops.mjs -- pytest ${{ inputs.TESTS_TYPE }} --alluredir=${ALLURE_RESULTS}
         env:
           ALLURE_ENDPOINT: ${{ secrets.ALLURE_ENDPOINT_TESTING }}
           ALLURE_TOKEN: ${{ secrets.ALLURE_TOKEN_TESTING }}
