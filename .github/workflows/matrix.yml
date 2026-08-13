@@ -15,6 +15,16 @@ on:
           - tests/fixtures
           - tests
         default: tests/poco
+      TESTS_SUCCESS:
+        description: "Select type of tests"
+        required: true
+        type: choice
+        options:
+          - always
+          - random
+          - never
+          - broken
+        default: always
       PYTEST_THREADS:
         description: "How many threads, sire?"
         required: true
