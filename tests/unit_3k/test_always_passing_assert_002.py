@@ -21,8 +21,6 @@ def test_unit_always_passing_001():
         assert not _should_fail(), "Failure due to reason ODD"
     with allure.step("Assert 123 versus 123"):
         assert not _should_fail(), "Failure due to reason ODD"
-    with allure.step("Assert 123 versus 123"):
-        assert not _should_fail(), "Failure due to reason ODD"
 
 @allure.feature("test results processing")
 @allure.story("many unit tests")
