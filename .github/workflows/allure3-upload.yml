@@ -66,6 +66,7 @@ jobs:
           ALLURE_PROJECT_ID: 276
           ALLURE_RESULTS: "allure-results"
           ALLURE_LAUNCH_NAME: "GitHub Actions upload using allure3"
+          ALLURE_LAUNCH_TAGS: "allure3"
           TESTS_TYPE: ${{ inputs.TESTS_TYPE || 'tests/poco/' }}
           PYTEST_THREADS: ${{ inputs.PYTEST_THREADS || 1 }}
           TESTS_SUCCESS: ${{ inputs.TESTS_SUCCESS || 'always' }}
