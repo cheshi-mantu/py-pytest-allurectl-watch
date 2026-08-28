@@ -8,12 +8,13 @@ on:
         required: true
         type: choice
         options:
-          - tests/poco
-          - tests/unit-many
-          - tests/unit
-          - tests/attachments
-          - tests/fixtures
-          - tests
+          - tests/poco/
+          - tests/unit_many/
+          - tests/unit_3k/
+          - tests/unit/
+          - tests/attachments/
+          - tests/fixtures/
+          - tests/
         default: tests/poco
       TESTS_SUCCESS:
         description: "Select if tests pass or fail"
@@ -53,7 +54,7 @@ jobs:
           npm add -D allure
       - name: run pytest tests and upload to Allure TestOps
         run: | 
-          allure run --config=./envs.mjs -- pytest tests/${{ inputs.TESTS_TYPE }} -n ${{ inputs.PYTEST_THREADS }} --alluredir=allure-results
+          allure run --config=./envs.mjs -- pytest ${{ inputs.TESTS_TYPE }} -n ${{ inputs.PYTEST_THREADS }} --alluredir=allure-results
         env:
           ALLURE_ENDPOINT: ${{ secrets.ALLURE_ENDPOINT_TESTING }}
           ALLURE_TOKEN: ${{ secrets.ALLURE_TOKEN_TESTING }}
