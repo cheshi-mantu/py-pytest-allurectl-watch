@@ -29,7 +29,7 @@ on:
           - random
           - never
           - broken
-        default: always
+        default: random
       PYTEST_THREADS:
         description: "How many threads, sire?"
         required: true
