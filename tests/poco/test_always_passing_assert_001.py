@@ -26,6 +26,7 @@ def test_unit_always_passing_001():
 @allure.label("layer","e2e")
 @allure.label("os","linux")
 @allure.label("jira","AD-2")
+@allure.tag("regress")
 @allure.title("Assert a tuple poco 002 001")
 def test_unit_always_passing_002():
     with allure.step("Assert 123 versus 123"):
