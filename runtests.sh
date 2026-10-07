@@ -24,4 +24,4 @@ mkdir ${ALLURE_RESULTS}
 
 sleep 2
 
-allurectl ${COMMAND_USED} -- pytest tests
+allurectl ${COMMAND_USED} --ignore-passed-test-attachments -- pytest tests/attachments/ --alluredir=allure-results
