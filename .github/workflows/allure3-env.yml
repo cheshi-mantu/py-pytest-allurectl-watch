@@ -1,4 +1,4 @@
-name: upload to allure testops using allure3 with env
+name: upload using allure3 with env
 
 on:
   workflow_dispatch:

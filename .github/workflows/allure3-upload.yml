@@ -1,4 +1,4 @@
-name: upload to allure testops using allure3
+name: upload using allure3
 
 on:
   pull_request:
